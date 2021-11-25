@@ -1,20 +1,19 @@
 # Major Workshop Application for ABLE 2022
 
-Application deadline: November 30th. 
+## Application Checklist
 
-The application process includes a PDF or MS Word document that includes:
+- [x] Application deadline: November 30th. 
 
-* Workshop title and name(s)of presenters
-* Abstract describing the proposed workshop (300 words maximum)
-* Student laboratory handout (what students in the class would be given)
-* A list of equipment and supplies needed for a class of 25 students
-* Notes for the Instructor on how the experiment works
-* Sample results
-* A description of how you will present the laboratory to conference participants
-* Student/TA evaluations of this exercise as a learning experience (optional)
+Application is a PDF or MS Word document that includes:
 
-Notification of acceptance by selection committee by January 15th.
-
+- [x] Workshop title and name(s)of presenters
+- [x] Abstract describing the proposed workshop (300 words maximum)
+- [x] Participant handouts (see note to reviewers below)
+- [x] A list of equipment and supplies needed for a class of 25 students
+- [ ] Notes for the Instructor (to be completed post-workshop)
+- [x] Sample results
+- [x] A description of how you will present the laboratory to conference participants
+- [ ] Student/TA evaluations of this exercise as a learning experience (not applicable)
 
 
 ## Notes to the Reviewers
@@ -23,16 +22,18 @@ Notification of acceptance by selection committee by January 15th.
 
 2. To demonstrate the versatility of Markdown, all of the handouts for this workshop were composed in Markdown, then converted directly to MS Word for final submission. The original ".md" file is available to participants from this workshop's [ABLE 2022 GitHub repository](https://github.com/adanieljohnson/ABLE_2022_Workshop).
 
-================================================================================
+3. I think the current title of the workshop is the best one to attract participants. I would appreciate your suggestions for improving it.
 
-# Workshop: Building an Open Collaborative Writing Guide Using GitHub and Online Tools
+<br>
+<hr/>
+<br>
+
+# Major Workshop Proposal: Building an Open-Access Writing Resource Guide Using GitHub and Online Tools
+
 
 ## Presenter
-A. Daniel Johnson
 
-Wake Forest University, Department of Biology, 1834 Wake Forest Road, Winston-Salem NC 27109, USA
-
-_johnsoad@wfu.edu_
+A. Daniel Johnson, Wake Forest University, Department of Biology, 1834 Wake Forest Road, Winston-Salem NC 27109, USA. _johnsoad@wfu.edu_
 
 
 ## Abstract
@@ -203,10 +204,7 @@ The table shows how to mark text, and what it will look like when rendered.
 |Links to web pages|`[text](link)`|[RStudio](https://www.rstudio.com)|
 |Links with URL|`[link](link)`|[https://www.rstudio.com](https://www.rstudio.com)|
 |Links to embed local images|`![alt text or image title](path/to/local_image). `|`![Image on my desktop](/home/desktop/image_on_desktop.png)`|
-|Links to embed image from web|`![alt text or image title](https://upload.wikimedia.org/
-wikipedia/commons/thumb/6/6c/
-Biology_students_in_lab.
-jpg/320px-Biology_students_in_lab.jpg).`|![Image on Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Biology_students_in_lab.jpg/320px-Biology_students_in_lab.jpg)|
+|Links to embed image from web|`![alt text or image title](https://upload.wikimedia.org/ wikipedia/commons/thumb/6/6c/ Biology_students_in_lab. jpg/320px-Biology_students_in_lab.jpg).`|![Image on Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Biology_students_in_lab.jpg/320px-Biology_students_in_lab.jpg)|
 
 
 ## Codes for Block Level Formatting
@@ -364,7 +362,25 @@ Renders as:
 3. Third item
 
 
-The one challenge of using numbered lists in Markdown is that they always start with #1. There is no simple way to force the starting number in a list. I usually fix this by editing the HTML or Word document directly, or by pre-numbering the lists myself.  
+The one challenge of using numbered lists in Markdown is that they always start with #1. There is no simple way to force the starting number in a list. I usually fix this by editing the HTML or Word document directly, or just pre-number the lists myself.  
+
+
+### Task Lists
+
+Task lists are unordered lists with editable checkboxes instead of bullet marks. To create a task list with open check boxes, begin each item with a dash, space, then opening and closing square brackets separated by one space `(- [ ] )` in front of task list items. To select a checkbox, add an x in between the brackets `(- [x] )`.
+
+How to enter it:
+```
+- [x] Write the manual pages
+- [ ] Update the LMS
+- [ ] Email students
+```
+
+The rendered output looks like this:
+
+- [x] Write the manual pages
+- [ ] Update the LMS
+- [ ] Email students
 
 
 ## Math Expressions
@@ -503,17 +519,18 @@ In this exercise we'll be pulling and pushing files between your server and loca
 
 10. If you click on Fetch Origin again, you should get a message saying __All files up to date__. This means your files in the local copy and the server copy of the repository all match. 
 
+
 =========================================================
 
 # Exercise 4: Generating Your Final Output Documents
 
-`(DRAFT - I need to write and install the GitHub Action into the ABLE site, then write the procedure for the GitHub Action.)`
+`(DRAFT - I need to write and install the GitHub Action into the ABLE site, then write the corresponding procedure for the handout.)`
 
 ## Background
 
 We will use [Pandoc](https://pandoc.org/index.html) to convert our  structured documents in Markdown to other formats. Pandoc is a "universal document converter." It can read many different document file types, then convert one format to another. Markdown and Pandoc play very nicely together.
 
-There are several ways to access Pandoc. We'll use two routes: a standalone web-based converter (for HTML), and a GitHub __action__ (for MS Word). I will demonstrate a third route: using the command line.
+There are several ways to access Pandoc. We'll use two routes: a standalone web-based converter (for HTML), and a GitHub __action__ (for MS Word). I will demonstrate a third route, using the command line.
 
 
 ## Converting .md to .html
@@ -538,9 +555,9 @@ Pandoc can be accessed with a GitHub __action__. When files are uploaded, the Gi
 
 ## Demonstration: Using the Command Line
 
-It is very easy to install and run Pandoc from your computer's command line.  
+It is very easy to install and run Pandoc from your computer's command line.
 
-1. Go to the [Pandoc installation page](https://pandoc.org/installing.html) for instructions to download and install to your computer.
+1. Go to the [Pandoc installation page](https://pandoc.org/installing.html) for instructions to download and install to your computer. 
 
 2. Use the following commands to convert from .md to .html or .docx format. The commands are the same, except for the extension on the output file. 
 
@@ -548,27 +565,81 @@ It is very easy to install and run Pandoc from your computer's command line.
 
 `pandoc -s /filepath/Input_Filename.md  -o /filepath/Output_Filename.docx`
 
-Pandoc gets fussy when rendering PDFs. First, it is less tolerant of markup errors, and may refuse to convert a file. Second, you must install a pdf-engine then call it. This engine defines what the format will look like. Look at the example below:
+Pandoc is fussy about rendering PDFs. First, it does not tolerate markup errors, and may refuse to convert a file. Second, you must install a pdf-engine then call it in the command. This engine defines what the format will look like. Look at the example below:
 
 `pandoc -s --pdf-engine=xelatex /filepath/Input_Filename.md  -o /filepath/Output_Filename.pdf`
 
-This particular engine's default layout and fonts set looks outdated and can be hard to read. Changing them requires some deeper coding work, which is why I do not recommend using Pandoc for occasional PDFs. It is faster to render a file to MS Word then save it as a PDF. 
+This particular engine's default layout and fonts looks outdated and can be hard to read. Changing them requires some deeper coding work, which is why I do not recommend using Pandoc for occasional PDFs. It is faster to render a file to MS Word then save it as a PDF. 
 
 
 =========================================================
 
 # Demonstration - Using Bookdown to Compile Documents Into an Online Book
 
-R has several powerful libraries for creating online materials. We used __bookdown__ (which leverages knitr and Pandoc), which was created specifically for authoring full length books. The [Home page for the R Bookdown package](https://bookdown.org/) has several examples of books that were created this way. Two particularly useful books are:
+R has several powerful libraries for creating online materials. We used __bookdown__ (which leverages __knitr__ and Pandoc), which was created specifically for authoring full length technical books. The [Home page for the R Bookdown package](https://bookdown.org/) has examples of books that were created this way. Two particularly useful books you might want to look at are:
 
+* [Guide to using Bookdown](https://bookdown.org/yihui/bookdown/)
 * [Using Markdown inside R](https://bookdown.org/yihui/rmarkdown/)
+
+There is not enough time for you to set up your own GitHub-hosted book. Instead, we'll take a short tour through the back end of the  __SWP Writing Resource Guide__ and see how R Studio can convert a collection of separate .md files into an integrated book.
+
+
+
+=========================================================
+
+# Links to Additional Participant Resources
+
+* [Workshop Repository and Writing Resource Guide](https://github.com/adanieljohnson/ABLE_2022_Workshop)
+* [WHY and HOW to write well-structured, reusable texts](https://www.portent.com/blog/content/content-with-github-markdown.htm)
+
+__GitHub__
+
+* [Install GitHub Desktop](https://desktop.github.com/)
+* [GitHub home page](https://github.com/) 
+* [Getting Started With GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
+* GitHub's [Atom Text Editor](https://www.portent.com/blog/content/atom-markdown.htm) can be set up as a Markdown-native editor.
+
+__Markdown native apps and add-ons__
+
+* [Typora](https://typora.io/) lets you write and view Markdown immediately.
+* [Mermaid](https://mermaid-js.github.io/mermaid/#/) is a Javascript based diagramming and charting tool. It uses Markdown-inspired text definitions to create and modify diagrams dynamically. :grinning:
+
+__Markdown Syntax__
+
+* [GitHub's Introduction to GHFM](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Quick Guide to Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+*[Extended Syntax for Markdown](https://www.markdownguide.org/extended-syntax/)
+* [Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md). <br> There are two ways to add emoji to Markdown files: copy and paste an emoji into the Markdown-formatted text, or type emoji shortcodes. GHFM does not support emoji shortcodes, so copy/paste from this cheat sheet is your best option.
+* [Making Tables in Markdown](https://www.pluralsight.com/guides/working-tables-github-markdown)
+* [Web-based Markdown Table Maker](https://www.tablesgenerator.com/markdown_tables)
+* [HTML shortcuts](https://www.w3schools.com/html/html_formatting.asp)
+* [HTML special symbols](https://www.w3schools.com/html/html_symbols.asp)
+* [Writing LaTeX equations](https://www.overleaf.com/learn/latex/Mathematical_expressions)
+* [Online equation builder](https://latex.codecogs.com/legacy/eqneditor/editor.php)
+* [Official Specification for GHFM](https://github.github.com/gfm/), if you want to see the complete documentation.
+
+__File Format Converters__
+
+* HTML5 for the web:
+    + [MD to HTML Converter](https://ashkanph.github.io/md-to-html/)
+    + [Dillinger](https://dillinger.io/)
+* MS Word documents:
+    + [Pandoc Converter](https://pandoc.org/demos.html)
+
+__R and R Studio; Bookdown Package__
+
+* [Install R](https://cloud.r-project.org/).
+* [Install RStudio](https://www.rstudio.com/products/rstudio/download/).
+* [Installing R and R Studio, Step by Step](https://moderndive.netlify.app/1-getting-started.html)
+* [Using Markdown inside R](https://bookdown.org/yihui/rmarkdown/)
+* [Home page for the R Bookdown package](https://bookdown.org/)
 * [Guide to using Bookdown](https://bookdown.org/yihui/bookdown/)
 
-We'll take a short tour through the back end of the __SWP Writing Resource Guide__ and look at the R Studio-based workflow that converts a collection of separate .md files into an integrated book.
 
 
 \=========================================================
-\=========================================================
+
+# Presentation Notes
 
 ## Equipment Needed
 
@@ -598,6 +669,7 @@ The workshop is built around a collaborative writing project. Participants will 
 __Markdown__ is a lightweight but very versatile text markup language that lets authors write well-structured texts once then reuse them multiple ways. It is extremely easy to learn (<20 minutes for 90% of what you will use routinely), and text with Markdown tags remains easy to read. I estimate that >80% of the new materials I write now start out in Markdown.
 
 There are several "flavors" of the original Markdown language standard. I chose the GitHub "flavor" of Markdown (GHFM) for the workshop because:
+
 * GHFM adds functions that other flavors do not have. 
 * There are multiple tools for converting GHFM into other formats. 
 * GHFM is nearly identical to the Markdown syntax used by R Studio to write online books. 
@@ -616,50 +688,10 @@ After the break (assuming 30 minutes), participants will spend the next 60 minut
     + [Dillinger](https://dillinger.io/)
 
 * MS Word documents that can be edited further, using Pandoc:
-    + [Pandoc Converter](https://pandoc.org/demos.html) is a one-stop converter supporting dozens of file types. A single command converts a GHFM.md file into a fully formatted MS Word document in ~2 seconds.
-
-There is not enough time for participants to set up a complete GitHub-hosted book. Instead, I plan to use the remaining ~30 minutes to demonstrate how R Studio uses the _knitr_ and _bookdown_ R libraries to convert separately edited pages into a GitHub-hosted book. Many ABLE members already know R Studio, but think of it mainly as a platform for statistics and numerical data analysis. Combined with GitHub and Markdown, R Studio becomes a powerful text editing and project management space. 
-
-Participants will leave with a complete copy to our Science Writing Resource Guide which they can use in their courses. Their computer will be set up and ready to use GitHub Desktop to continue editing their copy of the Guide, and they will have a GitHub account that they can use to build books or share pages with others.
-
-***
-
-## Links to Participant Resources
-
-* [Workshop Repository and Writing Resource Guide](https://github.com/adanieljohnson/ABLE_2022_Workshop)
-
-__GitHub__
-
-* [Install GitHub Desktop](https://desktop.github.com/)
-* [GitHub home page](https://github.com/) 
-* [Getting Started With GitHub Desktop](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop)
-
-__Markdown Syntax__
-
-* [GitHub's Introduction to GHFM](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [Making Tables in Markdown](https://www.pluralsight.com/guides/working-tables-github-markdown)
-* [Web-based Markdown Table Maker](https://www.tablesgenerator.com/markdown_tables)
-* [HTML shortcuts](https://www.w3schools.com/html/html_formatting.asp)
-* [HTML special symbols](https://www.w3schools.com/html/html_symbols.asp)
-* [Writing LaTeX equations](https://www.overleaf.com/learn/latex/Mathematical_expressions)
-* [Online equation builder](https://latex.codecogs.com/legacy/eqneditor/editor.php)
-* [Official Specification for GHFM](https://github.github.com/gfm/), if you want to see the complete documentation.
-
-__File Format Converters__
-
-* HTML5 for the web:
-    + [MD to HTML Converter](https://ashkanph.github.io/md-to-html/)
-    + [Dillinger](https://dillinger.io/)
-* MS Word documents:
     + [Pandoc Converter](https://pandoc.org/demos.html)
 
-__R and R Studio; Bookdown Package__
+There is not enough time to set up a complete GitHub-hosted book. Instead, I plan to use the remaining ~30 minutes to demonstrate how R Studio uses the _knitr_ and _bookdown_ R libraries to convert separately edited pages into a GitHub-hosted book. Many ABLE members already know R Studio, but think of it mainly as a platform for statistics and numerical data analysis. Combined with GitHub and Markdown, R Studio becomes a powerful text editing and project management space. 
 
-* [Install R](https://cloud.r-project.org/).
-* [Install RStudio](https://www.rstudio.com/products/rstudio/download/).
-* [Installing R and R Studio, Step by Step](https://moderndive.netlify.app/1-getting-started.html)
-* [Using Markdown inside R](https://bookdown.org/yihui/rmarkdown/)
-* [Home page for the R Bookdown package](https://bookdown.org/)
-* [Guide to using Bookdown](https://bookdown.org/yihui/bookdown/)
+Participants will leave with a complete copy to our Science Writing Resource Guide which they can use in their courses. Their computer will be set up and ready to use GitHub Desktop to continue editing their copy of the Guide, and they will have a GitHub account that they can use to build books or share pages with others.
 
 
