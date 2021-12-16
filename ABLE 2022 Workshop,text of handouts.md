@@ -70,7 +70,7 @@ Markdown is __extremely easy to use__; it takes less than 20 minutes to learn mo
 
 ### About This Workshop
 
-Before the workshop you should install GitHub Desktop and register for a free GitHub account. GitHub is a no/low cost, secure space for collaboration and code sharing that is popular with data scientists and coders. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects (to see an example, check out this book, [Using Markdown inside R](https://bookdown.org/yihui/rmarkdown/).) 
+Before the workshop you need to install GitHub Desktop and register for a free GitHub account. GitHub is a no/low cost, secure space for collaboration and code sharing that is popular with data scientists and coders. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects (to see an example, check out this book, [Using Markdown inside R](https://bookdown.org/yihui/rmarkdown/).) 
 
 GitHub can be accessed entirely via a web browser, but the GitHub Desktop application greatly simplifies installation, creating an account, and handling repositories.  
 
@@ -86,7 +86,7 @@ You will leave this workshop with your own copy of the Science Writing Guide tha
 <hr/>
 <br>
 
-# Pre-Lab Exercise: What You Should Do Before the Workshop
+# Pre-Lab Assignment: What You Need To Do Before the Workshop
 
 Give yourself enough time to install the software. GitHub Desktop takes 10-15 minutes to install, and registering for a new GitHub account takes 5-10 minutes. R Studio Desktop is optional (it is used for the demonstration), but takes 10-15 minutes to install if you want to follow along with the demonstration. 
 
@@ -101,7 +101,7 @@ Go to GitHub and follow their instructions for installing GitHub Desktop on your
 
 ## Register for a Free GitHub Account
 
-GitHub Desktop should ask if you want to log into an existing account, or create one. If it does not do that automatically, go to the [GitHub home page](https://github.com/) and follow the prompts to register. __You do not need a private account for this workshop__. If you choose to start using GitHub regularly, it only costs $50/year for full access, and definitely is a good investment; the backup service alone saved me several times after I accidentally deleting important files or content.
+GitHub Desktop should ask if you want to log into an existing account, or create one. If it does not do that automatically, go to the [GitHub home page](https://github.com/) and follow the prompts to register. __You do not need a private account for this workshop__. If you choose to start using GitHub regularly, it only costs $50/year for full access, and definitely is a good investment; the backup service alone saved me several times after I accidentally deleting important files.
 
 
 ## OPTIONAL: Install R and R Studio Open Source Edition
@@ -127,7 +127,7 @@ For more detailed instructions, consult [Installing R and R Studio, Step by Step
 <hr/>
 <br>
 
-# Exercise 1: Copying the Resource Guide From GitHub 
+# Exercise 1: Copying the Resource Guide Files From GitHub 
 
 `(DRAFT - missing screenshot images; needs updated links to the ABLE 2022 repository)`
 
@@ -139,20 +139,27 @@ What makes GitHub so useful is that you can make a copy of any public repository
 
 There are two kinds of copies: __clones__, and __forks__. A clone is a completely separate copy. GitHub will tell you if there have been changes made to the original source repository, but those changes are not added to your copy, and any changes you make to your version do not affect the source. We tend to clone repositories when we want to use the materials independently from their original authors. 
 
-A fork is a collaborative copy that remains connected to its parent. All of the users are working on the same set of files at the same time. Unlike a Google document though, changes made by collaborators have to be approved and merged by the owner of the repository. Once changes are approved, they are "pushed" to all collaborators' copies of the repository. Forked repositories are extremely useful when multiple authors are working on one project. Every change is documented along with who made them. Individuals can work on separate files (and even different versions of the same file) without interfering with each other. Earlier versions of every file are available from the file archive.
+We will not use them today, but a fork is a collaborative copy that remains connected to its parent. All of the users are working on the same set of files at the same time. Unlike a Google document though, changes made by collaborators have to be approved and merged by the owner of the repository. Once changes are approved, they are "pushed" to all collaborators' copies of the repository. Forked repositories are useful when multiple authors are working on one project. Every change is documented along with who made it. Individuals can work on separate files (and even different versions of the same file) without interfering with each other. Earlier versions of every file are available from the file archive.
 
-Today you will be making a clone of the SWP Writing Resource Guide. This is your sandbox copy; you cannot damage the source files. You can edit any page you want, revise the order of pages in the Guide, or add new pages. If you make a mistake in a document and cannot fix it, just download a new copy.
+Today you will be cloning two repositories: the ABLE Workshop files (now), and the SWP Writing Resource Guide (later). These are your sandbox copies; you cannot damage the original source files. You can edit any page, revise the order of pages in the Guide, or add new pages. If you make a mistake in a document and cannot fix it, just download a new copy.
 
 
 ## Procedure
 
+This method for _copying__cloning__ a repository. This method breaks the connection between your copy and the master copy, so changes made to the master do not affect yours.
+
 1. Use a web browser to log into your GitHub account.
 
-2. [Click here to go directly to the project repository](https://github.com/adanieljohnson/SWP_student_writing_guide). Alternatively, go to the Search window at the top left, and enter __adanieljohnson/SWP_student_writing_guide__. This is the shortcut to the project repository.
+2. [Click here to go directly to the ABLE workshop repository](https://github.com/adanieljohnson/ABLE_2022_Workshop). Alternatively, go to the Search window at the top left, and enter __adanieljohnson/ABLE_2022_Workshop__. This is the shortcut to the project repository.
 
-3. What you see will be something similar to the screenshot below. Click on "Use this template" to create a copy for yourself.
+3. What you see will be something similar to the screenshot below. Click on "Code" to open the window with the link to clone this repository. 
 
-`Images needed: Main_repository_landing.png, Create_a_new_repo.png`
+![Main page of ABLE Workshop repository](images/Home-ABLE.png)
+
+
+4. Copy the URL. You will 
+![Orange arrow: URL to clone the repository. Yellow arrow: avoid this; it does not work always.](images/Code-ABLE.png)
+
 
 4. Give your copy a name and brief description if desired. For now, make it public, and do not include the branches. Create your repository. After about 1 minute, there will be a cloned copy of our respository stored on your own computer, and in your GitHub account.
 
