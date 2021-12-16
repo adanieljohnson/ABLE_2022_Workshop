@@ -51,7 +51,7 @@ With practice, strategic reading goals become even more focused. For example:
 
 
 ## Remember To THINK While You Read
-If you read a scientific article but do not understand it, it is tempting to think you are somehow at fault. Instead, take a step back and ask yourself, “__why__ am I confused? 
+If you read a scientific article but do not understand it, it is tempting to think you are somehow at fault. Instead, take a step back and ask yourself, "__why__ am I confused?" 
 
 * Do I not have the needed background knowledge? What am I missing?
 * Is the argument flawed somehow? Does the evidence not back up their claims?
@@ -59,9 +59,9 @@ If you read a scientific article but do not understand it, it is tempting to thi
 
 Taking this step back to ask “why” is called __metacognition__, which literally means thinking about your own thinking. It is a simple yet very powerful learning strategy. The more you do it, the faster your scientific reading AND writing skills will develop. 
 
-Thinking about WHY you are confused does several things simultaneously. First, it turns down that annoying voice in the back of your head saying “I can’t do this!” No, you are not the only one who has that little “doubt gremlin;” other students and even your professors regularly doubt their ability to understand things. Your professors simply have learned how to identify where and why they are confused. That brings us to another important point: if you can identify the source of your confusion, you can address it more quickly. 
+Thinking about WHY you are confused does several things simultaneously. First, it helps muzzle that annoying “doubt gremlin” in the back of your head saying “I can’t do this!” __You are not the only one who struggles__. Most students doubt their ability to understand things at one time or another. Even your professors feel it; we simply have learned how to identify where and why we are confused. That brings us to another important point: if you can identify the source of your confusion, you can address it more quickly. 
 
-Metacognition also turns what you read into a dialogue. We’re going to let you in on a little secret: just because something is published it does not mean it is well written or communicates clearly. “Peer reviewed” means an article has been read by others working in the field who think it is worthwhile for others to read. It does not mean an article is perfect. Sometimes you are confused because the author was unclear.
+Metacognition also turns reading into a dialogue. We’re going to let you in on a little secret: just because something is published it does not mean it is well written or communicates clearly. “Peer reviewed” means an article has been read by others working in the field who think it is worthwhile for others to read. It does not mean an article is perfect. Sometimes you are confused because the author was unclear, and is not holding up their end of the conversation.
 
 
 ## Practicing Reading Scientific Literature
