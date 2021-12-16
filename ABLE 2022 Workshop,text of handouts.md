@@ -146,7 +146,7 @@ Today you will be cloning two repositories: the ABLE Workshop files (now), and t
 
 ## Procedure
 
-This method for _copying__cloning__ a repository. This method breaks the connection between your copy and the master copy, so changes made to the master do not affect yours.
+This method for _cloning__ a repository breaks the connection between your copy and the master copy, so changes made to the source files do not affect yours. 
 
 1. Use a web browser to log into your GitHub account.
 
@@ -154,20 +154,59 @@ This method for _copying__cloning__ a repository. This method breaks the connect
 
 3. What you see will be something similar to the screenshot below. Click on "Code" to open the window with the link to clone this repository. 
 
-![Main page of ABLE Workshop repository](images/Home-ABLE.png)
+<center>
+
+![Main page of ABLE Workshop repository](images/Home-ABLE.png){width=50%}
+
+</center>
+<br/>
+
+4. Copy the URL. You will need it in the next steps.
 
 
-4. Copy the URL. You will 
-![Orange arrow: URL to clone the repository. Yellow arrow: avoid this; it does not work always.](images/Code-ABLE.png)
+<center>
+
+![Orange arrow: URL to clone the repository.](images/Code-ABLE.png){width=50%}
+
+</center>
+<br/>
+
+5. Open GitHub Desktop. Go to __File > Clone Repository.__
+
+<center>
+
+![GitHub Desktop](images/Clone-Repo-ABLE.png){width=50%}
+
+</center>
+<br/>
+
+6. Paste the URL you just copied into the window. Do not change the local path right now.
+
+<center>
+
+![](images/Repo--Entry-Blank-ABLE.png){width=40%} &nbsp;![](images/Repo-Entry-Filled-ABLE.png){width=40%}
+
+</center>
+<br/>
+
+7. You should now have a copy of the files on your local hard drive. Check to make sure using "View in Finder." You should have a few files and folders. 
 
 
-4. Give your copy a name and brief description if desired. For now, make it public, and do not include the branches. Create your repository. After about 1 minute, there will be a cloned copy of our respository stored on your own computer, and in your GitHub account.
+<center>
 
-5. Go to your copy of this repository located on your computer. You should have 3-4 folders, and a long list of files with the extension __.Rmd__. These are the Markdown files and supporting styling sheets for the entire book. The extra "R" in the file extension is needed for R Studio to process them into book format. These files will be important later, when we see how R Studio generates a book from .md files
+![](images/Repo-Ready-ABLE.png){width=50%}
 
-6. Open the __docs__ folder. You will find files with .html and .md extensions. Open 1-2 of the .md files, and the files with the same names, but with .html extensions. Using __Handout for Exercise 1__ as your "md to html dictionary," try to translate the markup in the .md files. 
-    + What would the text would look like on a web page? 
-    + What would the text look like in a Word document?
+</center>
+<br/>
+
+8. Open the folder named __Writing Resource Guide.__ Inside are files with the ".md" extension. These are Markdown files for the full Resource Guide.
+
+9. Open the folder named __Sample Files__. It contains examples of .md files that have been rendered into HTML and MS Word formats. Pick one of each type, open them, then open the corresponding file with the .md extension.
+
+6. Using __Handout for Exercise 1__ as your ".md to .html/.docx dictionary," try to translate the markup in the .md files. 
+    + How does the markup translate into a web page? 
+    + How does the marked up text translate into a Word document?
+    + How hard or easy is it to read the original text in the .md file?
 
 <!--- Break for ========================== NEW PAGE-->
 
