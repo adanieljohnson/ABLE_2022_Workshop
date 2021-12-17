@@ -1,3 +1,8 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # Biostatistics 2: Comparing Groups - T-Tests
 
 T-tests are a family of statistical tests that compare two groups of data points to determine whether the means of the measurement variable are the same. All of the tests in the t-test family use the t-distribution to estimate probabilities. The main differences between the various t-tests is what and how the groups are compared.  
