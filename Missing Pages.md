@@ -1,8 +1,6 @@
-# Missing and Draft Pages
+# Missing Pages
 
-## Missing Pages
-
-Converting the Guide to Other Formats
+Converting the Guide to Other Formats - waiting to add after final beta testing at workshop
 
 * HTML
 * MS Word
@@ -10,9 +8,16 @@ Converting the Guide to Other Formats
 * PDF
 
 
-## DRAFT Pages
+Existing pages in DRAFT stage
 
-These pages need content added.
+* Using Zotero
+* Peer review process
+* Appendix A
+* Appendix B
+* Appendix C
+
+
+Missing content pages from workshop participants.
 
 * 
 * 
