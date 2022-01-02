@@ -1,4 +1,4 @@
-# Summarizing and Analyzing Your Data With Statistics 
+# Summarizing and Analyzing Your Data With Statistics {#biostats450}
 
 You will be using a variety of statistical tests to evaluate your data. These tests quantify the probability that you have obtained your results by chance, which lets you to determine whether you should accept or reject your hypothesis. 
 
@@ -9,6 +9,7 @@ Tables 1-3 below outline the most common statistical methods used in general bio
 * Sample of the test applied to a small dataset; and
 * Description of how to interpret and report your data.
 
+<br>
 
 __Table 1.__ Descriptive and Summary Statistics
 
@@ -18,6 +19,7 @@ __Table 1.__ Descriptive and Summary Statistics
 |Median|2019 median household income in the US was $68,703|Estimates the middle of a range of values using observed measures. Measurements are sorted in rank order; the middle measurement is the estimated middle of the distribution.| 
 |Standard Deviation|example|Estimated spread in the measurements|
 
+<br>
 
 __Table 2.__ Comparisons and Hypothesis Testing
 
@@ -29,6 +31,7 @@ __Table 2.__ Comparisons and Hypothesis Testing
 |Chi-square goodness of fit|The number of red, pink, white flowers in a genetic cross fits an expected 1:2:1 ratio|Tests a null hypothesis that observed frequencies are not different from expected frequencies.|
 |Chi-square independence|Compare the proportion of HIV patients who get worse after taking a new drug to the proportion who get worse after taking a placebo|Tests a null hypothesis that proportions are same in different groups.|
 
+<br>
 
 __Table 3.__ Statistical Modeling
 
@@ -41,7 +44,7 @@ __Table 3.__ Statistical Modeling
 
 ## Where to Learn More
 
-This Guide covers a fraction of all there is to know about biostatistics. This introduction will get you started thinking about some foundational concepts and using some simple tests. When you are ready, check out these additional resources. 
+This Guide covers just a fraction of all there is to know about biostatistics. This introduction will get you started thinking about some foundation concepts and using some simple tests. When you are ready, check out these additional resources. 
 
 [HHMI Data Explorer](https://www.biointeractive.org/classroom-resources/data-explorer) is an interactive web site that you can use to build graphs and learn how different parts go together. In the __Materials__ box on the right side is a link to download the __HHMI Statistical Analysis Selection Guide__. This short reference helps you choose the right statistical test for your data.
 
@@ -50,4 +53,15 @@ _MacDonald’s Biostatistics Handbook_. This is an exceptional resource. Much of
 Motulsky H. 2013. _Intuitive Biostatistics: A Non-Mathematical Guide to Statistical Thinking,_ 3rd edition. Oxford University Press, 576 pp. 
 
 Nuzzo R. 2014. Statistical errors: P values, the ‘gold standard’ of statistical validity, are not as reliable as many scientists assume. _Nature_, 506:150-152.
+
+<br/>
+<hr/>
+
+## Instructors' Supplement
+
+### Adapting Your Guide
+
+Our introduction to biostatistics describes the statistical tests that our students use most often. If there are other statistical tests that are more appropriate for the types of analyses your students do, add new descriptions for them to the tables on this page, add new pages outlining each test, and remove any current ones that are not needed.
+
+Alternatively, if your students have a separate statistics resource guide, the pages on biostatistics in this guide should be deleted entirely.
 

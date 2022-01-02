@@ -1,70 +1,61 @@
 # Table of Contents {-}
 
-The links take you to specific Sections and Chapters. If you get lost, the Table of Contents always is on the left side of the screen.  
+The links take you to specific chapters. If you get lost, the Table of Contents always is on the left side of the screen.  
 
-* Part 1: How Scientific Literature Works (100)
-    + Goals of Scientific Writing (100)
-    + Reading Scientific Literature (120)
-        - Learn what works: reading as a writer
-    + Three ways to read literature (125)
+* [Part 1: How Scientific Literature Works](#goals100)
+    + [Goals of Scientific Writing](#goals100)
+    + [Reading Scientific Literature](#reading120)
+    + [Strategies For Reading Literature](#readstrats125)
 
-* Part 2: Hypothesis Testing & Experimental Design (200)
-    + What IS a Hypothesis? (200)
-    + Step by Step Guide: Experimental Design (210)
-    + The Vocabulary of Experiments - Variables (215)
-    + The Vocabulary of Experiments - Controls, Replicates (220)
+* [Part 2: Hypothesis Testing & Experimental Design](#hypothesis200)
+    + [What IS a Hypothesis?](#hypothesis200)
+    + [Step by Step Guide: Experimental Design](#expdesign210)
+    + [Vocabulary of Experiments - Variables](#variables215)
+    + [Vocabulary of Experiments - Controls, Replicates](#replicates220)
 
-* Part 3: Pieces of an Article or Report (300)
-    + How articles are organized (300)
-    + Title and Abstract (320)
-    + Introduction (340)
-    + Methods (350)
-    + Results (360)
-    + Discussion (380)
-    + Literature Cited
-    + Other Orders and Formats
+* [Part 3: Pieces of an Article or Report](#articleparts300)
+    + [How articles are organized](#articleparts300)
+    + [Title and Abstract](#titles320)
+    + [Introduction](#introduction340)
+    + [Methods](#methods350)
+    + [Results](#results360)
+    + [Discussion](#discussion380)
 
-* Part 4: Summarizing, Analyzing, and Displaying Data (400)
-    + Types of Data
-    + Summarizing Data
-    + Basic Biostatistics 
-    + Data Visualization
-    + Step by Step Guide: -------
+* [Part 4: Summarizing, Analyzing, and Displaying Data](#datatypes400)
+    + [Types of Data](#datatypes400)
+    + [Summarizing Data: Bar Charts, Scatter Plots, Box Plots](#chartsone425)
+    + [Summarizing Data: Figure Legends](#chartstwo426)
+    + [Summarizing Data: Photos and Illustrations](#photos430)
+    + [Summarizing Data: Data Tables](#tables435)
+    + [Overview of Biostatistics](#biostats450)
+    + [Summary Statistics](#sumstats460)
+    + [Statistical Comparisons - T-tests](#compstatsone470)
+    + [Statistical Comparisons - ANOVA](#compstatstwo473)
+    + [Statistical Comparisons - Chi Square](#compstatsthree475)
+    + [Statistical Models - Correlation, Regression](#models480)
 
-* Part 5: Using Sources (500)
-    + Supporting facts and arguments with sources (505)
-    + Citation formats (510)
-    + Managing sources with Zotero (520)
-    + Step by Step Guide: -------
-    + d
-    + d
+* [Part 5: Using Sources](#sources500)
+    + [Supporting Statements With Sources](#sourcearguments505)
+    + [Paraphrasing Sources 1](#paraphrasingone506)
+    + [Paraphrasing Sources 2](#paraphrasingtwo507)
+    + [Paraphrasing Sources 3](#paraphrasingthree508)
+    + [Citation Formats](#citformats510)
+    + [Common Citation Mistakes](#citmistakes515)
+    + [Managing Sources with Zotero](#zotero520)
 
-* Part 6: Your Writing Toolbox (600)
-    + Writing Strategies (610)
-    + How to assess scientific writing critically (615)
-        - Toulmin model of practical argumentation
-        - Finding critical thinking and logic flaws
-    + Finding mechanical flaws (620)
-    + Peer Review methods (630)
-    + Step-by-Step Guide: Pre-Submission Checklist (650)
+* [Part 6: Your Writing Toolbox](#toolbox600)
+    + [Writing Strategies](#strategies610)
+    + [How to Critique Scientific Arguments](#toulmin615)
+    + [Peer Review Methods](#peerreview630)
+    + [Step-by-Step Guide: Pre-Submission Checklist](#submissioncheck650)
 
-* Part 7: Resources for Instructors (700)
-    + d
-    + d
-    + d
-    + d
-    + Annotated Bibliography
+* [Part 7: Resources for Instructors](#teachertools700)
+    + [Bins Scoring Method](#binsscore705)
+    + [Commenting on Student Work](#commenting710)
+    + [Training GTAs](#tatraining720)
+    + [Annotated Bibliography](#bibliography750)
 
-* Appendices: Practice Cases and Example Reports
-    + Appendix A. Ecology
-    + Appendix B. Physiology
-    + Appendix C. Cell
-    + Each case has:
-        - General starter question and observations
-        - 1 or 2 open-access articles related to the topic
-        - A Step-by-Step outline
-        - A raw dataset
-        - Summarized data
-        - Examples of a poorly- and a well-written report.
-
-
+* [Appendices: Practice Cases and Example Reports](#appendix800)
+    + [Appendix A. Ecology](#appa810)
+    + [Appendix B. Physiology](#appb820)
+    + [Appendix C. Cell Biology](#appc830)

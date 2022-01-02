@@ -1,13 +1,13 @@
-# Reading Scientific Literature
+# Reading Scientific Literature {#reading120}
 
-Learning how to __read__ scientific writing effectively is an important step in learning to __write__ it well.
+Learning how to __read__ scientific writing is an important step in learning to __write__ it well.
 
-Most scientific writers assume their readers know the vocabulary and accepted styles and formats for sharing information in their field. The best way to learn the conventions and assumptions of any field is to read published work from that field. Instead of just looking at the scientific arguments or conclusions though, also pay attention to how the author has organized and presented the information. 
+Most scientific writers assume their readers know the vocabulary and accepted styles and formats for sharing information in their field. The best way to learn those conventions and assumptions is to read published work from that field. Instead of just looking at the scientific arguments or conclusions though, pay attention to how the author has organized and presented information. 
 
 
 ## Reading As a Writer
 
-Scientists write primary research articles to outline, summarize, and share the details of experimental studies. Review articles (sometimes called secondary literature) summarize primary literature and provide a broader overview of a topic or field. Review articles also can lay out the evidence on each side of a controversial field, or competing theories about how a process works. Ultimately some of this information is included in books like your textbook.
+Scientists write primary research articles to outline, summarize, and share the details of their experiments. Review articles (sometimes called secondary literature) summarize primary literature and provide a broader overview of a topic or field. Review articles also can lay out the evidence on each side of a controversial field, or competing theories about how a process works. Ultimately some of this information is included in books like your textbook.
 
 Reading scientific articles efficiently is an important skill that develops with time and practice. You can develop this skill faster if you approach articles skeptically and strategically.
 
@@ -36,7 +36,9 @@ Here are some common goals that scientific readers might have. Each goal require
 |See how particular types of results or data are summarized and displayed;|the graphs, tables, and figures in the Results.|
 |Know what the rules are for the topic for claims, evidence, and reasoning;|what is presented and focused on in the Discussion.|
 |Learn how data and evidence from studies by others has been interpreted (what the field accepts as reasonable);|the interpretations in the Discussion.|
- 
+
+<br>
+
 With practice, strategic reading goals become even more focused. For example:
 
 |Someone with more experience may want to:	|...so they will focus mostly on:|
@@ -49,23 +51,25 @@ With practice, strategic reading goals become even more focused. For example:
 |Find additional articles that could be useful for interpreting their own work;|the full list of Literature Cited.|
 |What the influential labs, authors, and papers in the field are;|which papers and authors are listed in the Literature Cited; which authors show up repeatedly.|
 
+<br>
+
 
 ## Remember To THINK While You Read
-If you read a scientific article but do not understand it, it is tempting to think you are somehow at fault. Instead, take a step back and ask yourself, "__why__ am I confused?" 
+This might sound silly, but many students read scientific literature under the faulty assumption that "it's published, so it HAS to be true." As a result, when you read a scientific article but do not understand it, you are tempted to think you are somehow at fault. Instead, take a step back and ask yourself, "__why__ am I confused?"
 
-* Do I not have the needed background knowledge? What am I missing?
-* Is the argument flawed somehow? Does the evidence not back up their claims?
+* Do I not have the needed background knowledge? What am I missing? (It's Google time!)
+* Is the argument flawed somehow? Does the evidence not back up their claims? 
 * Is the writing not clear? Could this author have told the story more clearly?” 
 
-Taking this step back to ask “why” is called __metacognition__, which literally means thinking about your own thinking. It is a simple yet very powerful learning strategy. The more you do it, the faster your scientific reading AND writing skills will develop. 
+Taking a step back to ask “why” is called __metacognition__, which literally means thinking about your own thinking. It is a simple yet very powerful learning strategy. The more you do it, the faster your scientific reading AND writing skills will develop. 
 
-Thinking about WHY you are confused does several things simultaneously. First, it helps muzzle that annoying “doubt gremlin” in the back of your head saying “I can’t do this!” __You are not the only one who struggles__. Most students doubt their ability to understand things at one time or another. Even your professors feel it; we simply have learned how to identify where and why we are confused. That brings us to another important point: if you can identify the source of your confusion, you can address it more quickly. 
+Thinking about WHY you are confused does several things simultaneously. First, it turns down that annoying voice in the back of your head saying “I can’t do this!” No, you are not the only one who has that little “doubt gremlin;” other students and even your professors regularly doubt their ability to understand things. Your professors simply have learned how to identify where and why they are confused. That brings us to another important point: if you can identify the source of your confusion, you can address it more quickly. 
 
-Metacognition also turns reading into a dialogue. We’re going to let you in on a little secret: just because something is published it does not mean it is well written or communicates clearly. “Peer reviewed” means an article has been read by others working in the field who think it is worthwhile for others to read. It does not mean an article is perfect. Sometimes you are confused because the author was unclear, and is not holding up their end of the conversation.
+Metacognition also turns what you read into a dialogue. We’re going to let you in on a little secret: just because something is published it does not mean it is well written, communicates clearly, or is even true. “Peer reviewed” means an article has been read by others working in the field who think it is worthwhile for others to read. It does not mean an article is perfect. Sometimes you are confused because the author was unclear.
 
 
 ## Practicing Reading Scientific Literature
 
-[This page](http://url) describes three exercises that you can do on your own anytime to improve your literature reading skills. 
+[This page](#readstrats125) describes three exercises that you can do on your own anytime to improve your literature reading skills. 
 
 

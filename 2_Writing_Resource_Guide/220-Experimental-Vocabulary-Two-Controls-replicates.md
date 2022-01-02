@@ -1,4 +1,4 @@
-# The Vocabulary of Experiments 2 - Controls & Replicates {-}
+# The Vocabulary of Experiments - Controls & Replicates {#replicates220}
 
 ## Terms That Describe Groups Within an Experiment
 
@@ -41,17 +41,19 @@ The difference between technical and experimental replicates will become more im
 
 One of the common errors we see when students are starting out is they report ALL of the data points they collected. The original unfiltered or processed observations that you collect are called your __raw data__. The raw data belong in your laboratory notebook, but should not be part of your lab reports.  
 
-__Transformed data__ are the values you obtain after applying a formula or algorithm to the raw data. Not all data are transformed. Some data can go straight from raw to summarized form. These values are still not ready for you to put into a lab report. 
+__Transformed data__ are the values you obtain after applying a formula or algorithm to the raw data. Not all data are transformed; sometimes the raw observations are what are used to summarize the data. Transformed data are another kind of raw data, so are still not ready for you to put into a lab report. 
 
 __Summary or aggregate data__ have been organized and summarized in ways that make it easier to make comparisons. Usually that means one or more summary statistics have been calculated, and/or the data have been graphed or put into a summary table. This is the type of data that should be in a report.
 
 Here is a simple example. We want to know if hive location affects the size of worker bees. We have measured the lengths (in inches) of 10 worker honeybees each from 3 hives. One hive is in a suburban back yard, one hive is near a clover field, and one hive is near an apple orchard. 
 
-The data shown below are the raw data. Looking just at these numbers, what would you conclude?
+The data shown below are raw data. Looking just at these numbers, what would you conclude?
 
-Yard Hive: 1.003, 0.991, 1.001, 0.991, 1.008, 0.998, 0.991, 0.993, 1.001, 0.991
-Clover Field Hive: 1.3037, 1.288, 1.301, 1.289, 1.310, 1.298, 1.288, 1.291, 1.301, 1.288
-Orchard Hive: 1.103, 1.090, 1.1008, 1.091, 1.109, 1.098, 1.090, 1.092, 1.101, 1.087
+`Yard Hive: 1.003, 0.991, 1.001, 0.991, 1.008, 0.998, 0.991, 0.993, 1.001, 0.991`
+
+`Clover Field Hive: 1.3037, 1.288, 1.301, 1.289, 1.310, 1.298, 1.288, 1.291, 1.301, 1.288`
+
+`Orchard Hive: 1.103, 1.090, 1.1008, 1.091, 1.109, 1.098, 1.090, 1.092, 1.101, 1.087`
 
 The table below shows the summarized data. It is much easier to make a comparison between honeybee sizes at the three locations using the summarized data. 
 
@@ -61,4 +63,13 @@ The table below shows the summarized data. It is much easier to make a compariso
 |Clover Field|1.296|0.008|
 |Orchard|1.096|0.007|
 
+Which type of data are easier to compare, the raw measurements or the summary data in the table?
+
+<br/>
+<hr/>
+
+## Instructors' Supplement
+### Adapting Your Guide
+
+These are the terms that our students misuse most often when writing. Revise this page to emphasize terms that your local audience uses incorrectly most often.
 
