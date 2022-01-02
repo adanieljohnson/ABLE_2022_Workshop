@@ -55,14 +55,15 @@ A. Daniel Johnson, Wake Forest University, Department of Biology, 1834 Wake Fore
 
 ## Abstract
 
-At the 2021 ViABLE conference we presented our "six elements model" for teaching scientific writing in multi-section introductory biology courses. One of our essential tools is a standardized Scientific Writing Resource Guide that students and instructors use across multiple courses. In response to manyrequests that we share our Resource Guide, it now is available as an open-source book that others can modify to meet their individual needs.
+At the 2021 ViABLE conference we presented our "six elements model" for teaching scientific writing in multi-section introductory biology courses. One of our essential tools is a standardized Scientific Writing Resource Guide that students and instructors use across multiple courses. In response to many requests that we share our Resource Guide, it now is [available as an open-source book](https://adanieljohnson.github.io/SWP_student_writing_guide/) that others can modify to meet their individual needs.
 
-To make our Guide easy to maintain and convert to different formats, we wrote it using Markdown. This lightweight markup language is __ideal for writing lab materials__ because authors can write a text once, then output it in a variety of formats such as HTML5 for web pages, or Word/PDF documents for handouts. Groups of Markdown files can be combined to create interactive online books. Markdown takes ~20 minutes to learn, and marked text remains readable.
+To make our Guide easy to maintain and convert to different formats, we wrote it using __Markdown__. This lightweight markup is __ideal for writing lab materials__ because authors write a text once, then output it in multiple formats like HTML5 for web pages, or Word documents for printed handouts. Groups of Markdown files can be combined into interactive online books. 
+
+Markdown takes ~20 minutes to learn, and marked text remains readable. To demonstrate it, workshop handouts were written in Markdown. The original ".md" file is under "Sample Files" in the [workshop's GitHub repository](https://github.com/adanieljohnson/ABLE_2022_Workshop).
 
 Participants in this workshop do not need any prior technical knowledge beyond basic computer skills. They will learn to use Markdown by editing existing pages from our Guide, creating new pages, and converting both into formatted Word and HTML5 documents. We will demonstrate how to use R Studio to assemble collections of Markdown documents into books, and how to use GitHub to manage and share writing project files.
 
-Participants will leave with a complete copy of our Scientific Writing Resource Guide that they can revise to match their course requirements, the tools for writing and converting Markdown files to their preferred format, and a GitHub account where they can back up their project. Those interested can learn how to launch new book projects of their own, or contribute to our published edition of the Resource Guide.
-
+Participants will leave with a full copy of our _Scientific Writing Resource Guide_ that they can revise to match their course requirements, the tools for writing and converting Markdown files to their preferred format, and a GitHub account where they can back up their project. Those interested can learn how to launch new book projects of their own, or contribute to our published edition of the Resource Guide.
 
 __Keywords__: scientific writing, writing guidelines, Markdown, lab development tools, R Studio, web publishing
 
@@ -76,7 +77,7 @@ __Keywords__: scientific writing, writing guidelines, Markdown, lab development 
 
 Scientific writing helps students learn to state problems and present claims precisely, summarize evidence to support those claims, and explain their reasoning. For many years, our _Scientific Writing Resource Guide_ has been one of our essential tools for teaching scientific writing in multiple courses. The Guide focuses on writing a lab report that models a journal article because the same components are used in most other forms of scientific communication too. Our general format conforms to the ___Council of Science Editors___ (8e) standards, with some modifications to make writing easier for students just starting out. The Resource Guide includes sections on data visualization, basic biostatistics, and how to cite literature. 
 
-In 2021 we updated, expanded, and published our [Writing Resource Guide](https://github.com/adanieljohnson/SWP_student_writing_guide). Our goal is to support two audiences: undergraduates learning the craft of scientific writing, and biology instructors who either teach scientific writing to undergraduates or supervise teaching assistants who do. Rather than try to make one guide meet the needs of every possible audience, we designed ours to be an evolving resource, and released it [under terms of a Creative Commons BY-NC-SA 4.0 license](http://creativecommons.org/licenses/by-nc-sa/4.0/) ![](images/CC_logo.png){width=10%}. 
+In 2021 we updated, expanded, and published our [Writing Resource Guide](https://adanieljohnson.github.io/SWP_student_writing_guide/). Our goal is to support two audiences: undergraduates learning the craft of scientific writing, and biology instructors who either teach scientific writing to undergraduates or supervise teaching assistants who do. Rather than try to write one guide meet the needs of every possible audience, we designed ours to be an [evolving collaborative resource](https://github.com/adanieljohnson/SWP_student_writing_guide) that we have released [under terms of a Creative Commons BY-NC-SA 4.0 license](http://creativecommons.org/licenses/by-nc-sa/4.0/) ![](images/CC_logo.png){width=10%}. 
 
 The Guide is written in plain text using Markdown, so users can convert the Guide to whatever format is needed. Participants in this workshop will learn how to access and modify the Resource Guide using free tools. They can edit, extend or modify our Guide as needed to fit their particular needs and requirements, so long as they attribute its original source and do not use it commercially. 
 
@@ -84,19 +85,26 @@ The Guide is written in plain text using Markdown, so users can convert the Guid
 
 ### Why Use Markdown to Write Lab Documents?
 
-Producing the shared Resource Guide introduced us to __Markdown__, a lightweight markup language that is __extremely easy to use__. Markdown is a __great solution to the challenge of writing lab documents that may have to go to multiple destinations__. With Markdown, authors write a text once then convert it into multiple file formats. It takes less than 20 minutes to learn most of the Markdown syntax needed for routine writing tasks, and marked-up text is still easy to read. Markdown can be converted to HTML5 so it plays well with most LMSs. It also can be converted directly into MS Word or PDF documents. With additional free tools, collections of Markdown documents can be compiled into interactive online books. 
+Producing the shared Resource Guide introduced us to __Markdown__, a lightweight markup language that is __extremely easy to use__. Markdown is a __great solution to the challenge of writing lab documents that may have to go to multiple destinations__. With Markdown, authors write a text once then convert it into multiple file formats. It takes less than 20 minutes to learn most of the Markdown syntax needed for routine writing tasks, and marked-up text is still easy to read. Markdown can be converted to HTML5 so it plays well with most LMSs. It also can be converted directly into MS Word or PDF documents. With additional free tools, collections of Markdown documents can be compiled into rich, interactive online books. 
 
-To demonstrate the versatility of Markdown, all of the handouts for this workshop were written in Markdown, then converted to MS Word for final submission. The original ".md" file is available in the "Sample Files"" folder in the workshop's [ABLE 2022 GitHub repository](https://github.com/adanieljohnson/ABLE_2022_Workshop).
+To demonstrate the versatility of Markdown, all of the handouts for this workshop were written in Markdown. The original ".md" file and various converted versions are available in the "Sample Files"" folder in the workshop's [ABLE 2022 GitHub repository](https://github.com/adanieljohnson/ABLE_2022_Workshop).
 
 <br>
 
 ### About This Workshop
 
-Participants in this workshop do not need any technical skills beyond basic computer skills. The exercises assume no prior knowledge of Markdown, the other tools, or computer coding. 
+The main goals of the workshop are:
 
-__Before the workshop__ participants should try to install the software tools. These tools are not essential, but make working with .md files easier. We will troubleshoot any installation problems at the start of the workshop.
+* Share our open-source Writing Resource Guide, and show potential users how to modify it to meet their program needs.
+* Introduce participants who write lab materials for multiple destinations to a more flexible workflow.
 
-In the first half of the workshop participants will make personal copies of the files for our Resource Guide. Then they will try creating and editing Markdown documents using two tools: R Studio and a plain text editor. Finally they will save their new files to their personal GitHub account. In the second half of the workshop, participants will learn how they can use either R Studio or standalone tools to render their Markdown pages into HTML and MS Word formats. I will demonstrate how R Studio plus Bookdown can turn a collection of Markdown files into a book that can be hosted online or printed.
+__Participants in this workshop do not need any technical skills beyond basic computer skills__. The exercises assume no prior knowledge of Markdown, the other tools, or computer coding. 
+
+Before the workshop participants should try to install the software tools. These tools are not essential, but make working with .md files easier. We will troubleshoot any installation problems at the start of the workshop.
+
+In the first half of the workshop participants will make personal copies of the files for our Resource Guide. Then they will try creating and editing Markdown documents using two tools: R Studio and a plain text editor. Finally they will save their new files to their personal GitHub account. 
+
+In the second half of the workshop, participants will learn how to use either R Studio or standalone tools to render their Markdown pages into HTML and MS Word formats. I will demonstrate how R Studio plus Bookdown can turn a collection of Markdown files into a book that can be hosted online or printed.
 
 Participants will leave this workshop with a complete copy of the Science Writing Resource Guide that they can revise to match their local needs, experience writing and editing Markdown, and a personal GitHub account from which to share their work with others or launch a book project (say, a new lab manual) of their own. Participants' new and edited pages will help us identify what additional topics should be added to our Resource Guide. Those who are interested can learn how they can contribute and publish new materials to our Guide.
 
@@ -143,7 +151,9 @@ If you have participated in one of ABLE's prior workshops on R or R Studio, you 
     + Scroll down to “Installers for Supported Platforms” near the bottom of the page.
     + Click on the download link corresponding to your computer’s operating system.
 
-For more detailed instructions, consult [Installing R and R Studio, Step by Step](https://moderndive.netlify.app/1-getting-started.html)
+Here are [illustrated instructions for installing R & RStudio](https://www.r-bloggers.com/2022/01/how-to-install-and-update-r-and-rstudio/). 
+
+For even more detailed instructions, consult [Installing R and R Studio, Step by Step](https://moderndive.netlify.app/1-getting-started.html)
 
 <!--- Break for ========================== NEW PAGE-->
 
@@ -239,7 +249,7 @@ In this exercise you will be cloning the __ABLE 2022 Workshop__ repository. You 
 </center>
 <br/>
 
-10. Now that your repo is saved, we can play. Open the folder named __Sample Files__. It contains .md files and the corresponding rendered HTML and MS Word formats. Open one of the .md files, then open the corresponding file with the .html or .docx extension.
+10. Now that your repo is saved, we can play. Open the folder named __Sample Files__. It contains the original .md file for the handouts for this workshop, and corresponding HTML and MS Word files, rendered using different methods. Open the .md file, then open one of the files with either the .html or .docx extension.
 
 11. Using __Handout for Exercise 1__ as your ".md to .html/.docx dictionary," try to translate the markup in the .md files. As you work, think about these questions:
     + How hard or easy is it to read the __original text__ in the .md file?
@@ -255,23 +265,14 @@ In this exercise you will be cloning the __ABLE 2022 Workshop__ repository. You 
 <hr/>
 <br>
 
-# Handout for Exercise 1: Introduction to Markdown
+# Handout for Exercise 1: Short Guide to Markdown
 
-Markdown was created as a way for writers to annotate thir text quickly to show formatting without having to embed full HTML tags. The goal with Markdown is to separate the content (words of the text) of a document from the format (headers, paragraphs, bullets, etc.) from the. By using one well-defined set of marking conventions (called the __syntax__), we can use converters to read a marked-up text and render it to many different formats. For example, the converter we will be using can read Markdown and export it in any of >55 text formats.
+Markdown was created as a way for writers to annotate thir text quickly to show formatting without having to embed full HTML tags. The goal with Markdown is to separate the content (words of the text) of a document from the format (headers, paragraphs, bullets, etc.) from the. If we use one well-defined set of marking conventions (called the __syntax__), we can use converters to read a marked-up text and render it to many different formats. For example, the converter we will be using can read Markdown and export it in any of >30 other text formats.
 
 
 ## What Does Markdown Syntax Look Like? 
 
-Here is some text that has been formatted so you can see the the markup:
-```
-#### Level 4 Header - Formatting
-
-There are two main kinds of text formatting:
-* Inline formatting (\_italics\_, subscripts like H\~2\~SO\~4\~, etc.)
-* Block- or paragraph-level formatting (headings, sub-headings, etc.)
-```
-
-The number of hash (#) marks indicates the level of the header. Lines of text are separated by an extra space. Words or blocks of text that have specific formatting are surrounded by a pair of symbols indicating the type of formatting to apply. Here is what the same text looks like rendered:
+Here is some text that has been formatted using Markdown:
 
 ***
 
@@ -282,9 +283,23 @@ There are two main kinds of text formatting:
 * Inline formatting (_italics_, subscripts like H~2~SO~4~, etc.)
 * Block- or paragraph-level formatting (headings, sub-headings, lists, etc.)
 
-The rest of this handout explains the major markup codes. Keep a copy of this handout handy until you can remember the specific codes reliably.
-
 ***
+
+Here is the same text that has been formatted so you can see the markup:
+
+```
+#### Level 4 Header - Formatting
+
+There are two main kinds of text formatting:
+
+* Inline formatting (_italics_, subscripts like H~2~SO~4~, etc.)
+* Block- or paragraph-level formatting (headings, sub-headings, etc.)
+```
+
+The number of hash (#) marks indicates the level of the header. Lines of text are separated by an extra space. Words or blocks of text that have specific formatting are surrounded by a pair of symbols indicating the type of formatting to apply. Here is what the same text looks like rendered:
+
+The rest of this handout explains the markup codes that you need most often. Keep a copy handy until you can remember the specific codes reliably. Better yet, copy the text of the original .md file and edit it to suit your own needs.
+
 <br>
 
 ## Markdown Codes for Inline Formatting
@@ -400,7 +415,7 @@ Renders like this:
 
 ### Preventing Text From Rendering
 
-Blocks of text that should be displayed as written and not be rendered are enclosed between three backticks. Blocked typed like this:
+Blocks of text that should be displayed as written and not be rendered are enclosed between three backticks. Blocks typed like this:
 
 ```` ```
    Block of text or code that should NOT be rendered, like this __bold__ word.
@@ -516,8 +531,8 @@ $$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$
 
 __Other Tips on Equations:__
 
-* This link is for a tutorial on writing LaTeX equations. [Writing LaTeX equations](https://www.overleaf.com/learn/latex/Mathematical_expressions)
-* This is a web page where you can write LaTeX equations using an online visual editor. [Online equation builder](https://latex.codecogs.com/legacy/eqneditor/editor.php)
+* This link goes to a tutorial on [writing LaTeX equations](https://www.overleaf.com/learn/latex/Mathematical_expressions).
+* [Online equation builder](https://latex.codecogs.com/legacy/eqneditor/editor.php) is a web page where you can write LaTeX equations using a visual editor. 
 * Markdown equations sometimes fail to render correctly. Always check any formatted equations you have in a .md file the first time you try out a new rendering tool. 
 * Unlike mathematicians, we usually do not need to edit equations after typing them the first time. So I usually will render them once, take a screen shot, and embed them as images. As with everything, whatever simplifies your workflow is what you should do, as long as you do it the same way every time.
 
@@ -547,7 +562,7 @@ These web resources can help you expand your Markdown writing skills. More are l
 
 * [GitHub's Introduction to GHFM](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Making Tables in Markdown](https://www.pluralsight.com/guides/working-tables-github-markdown)
-* [Web-based Table Maker](https://www.tablesgenerator.com/markdown_tables)
+* [Web-based Markdown Table Maker](https://www.tablesgenerator.com/markdown_tables)
 * The [Official Specification for GHFM](https://github.github.com/gfm/). A __very__ deep dive, but sometimes it is the best place to find answers to difficult formatting problems. 
 
 <!--- Break for ========================== NEW PAGE-->
@@ -562,23 +577,23 @@ These web resources can help you expand your Markdown writing skills. More are l
 
 ### Why Use Markdown Instead of MS Word or Google Docs?
 
-Markdown is intended for the __start__ of the authoring workflow. Unlike MS Word, it assumes that text needs to be used and reused across multiple formats. MS Word is desktop publishing software, meaning it is designed to produce polished print documents at the __end__ of the authoring and publication workflow. To that end, Word files include a lot of hidden styling information that __limits reusability__. 
+Publishers and full-time content writers know it is easier to manage a large number of complex documents when you have a consistent authoring and publishing __workflow__. Markdown is intended for the __start__ of the authoring workflow, and assumes that text needs to be used and reused across multiple formats. MS Word is desktop publishing software, meaning it is designed to produce polished print documents at the __end__ of the authoring and publication workflow. That is why Word files include a lot of hidden styling information that __hampers reusability__. 
 
 For example, if you have ever converted a long Word document into a web page, or combined several documents into one, you probably have seen unpredictable changes in format. This happens because of the embedded, hidden styling information. Markdown does not hide the formatting information, making it much easier to combine and convert documents.
 
-What other advantages does Markdown have beyond "write once, reuse many ways"?
+Markdown has other advantages beyond "write once, reuse many ways."
 
 1. Markdown files are __VERY__ small compared to Word .docx files. For example the Markdown file containing the full set of handouts for this workshop is 54KB; the corresponding Word file is 3.8 MB (70x larger.)
 
-2. Markdown files do not have embedded images. They use an address to "call in" images when the document is rendered. One master set of images can be stored in a single location, and called into any Markdown document. If an image is updated, every document or web site that uses that image will use the new version the next time the file is generated.
+2. Markdown files do not contain embedded images. They use an address to "call in" images when the document is rendered. This means one master set of images can be stored in a single location, and called into any Markdown document. If an image is updated, every document or web site that uses that image will use the new version the next time the file is generated.
 
-3. When a Markdown file is converted to another format, all of the headers, bold words, etc., get tagged with appropriate styling codes for that document type. This greatly reduces time spent reformatting converted documents.
-    + Say you create a long document, convert it to Word, and decide you want to change all 155 section headers from blue to red text in a different font. You do not have to convert each header one at a time; change the master style settings for headers once, and every header changes. 
+3. When a Markdown file is converted to a document format, all of the headers, bold words, etc., get tagged with appropriate styling codes for that document type. This greatly reduces time spent reformatting converted documents.
+    + Say you create a long document, convert it to Word, and decide you want to change all 155 section headers from blue to red text in a different font. You do not have to convert the headers one at a time; change the master style settings for headers once, and every header changes. 
     + If you copy/paste Markdown HTML into an existing site (like an LMS page), the added text adopts the styles of its new location.
 
 4. Markdown is truly platform-agnostic. The same file can be edited on a Mac, a PC, and a Linux machine, and never have any compatibility problems. 
 
-5. Markdown and any tools needed to convert it are available for free. 
+5. Many tools for using Markdown are available for free. 
 
 <br>
 
@@ -594,9 +609,9 @@ There are many ways to write Markdown files. You can:
 
 Which will work best for you depends on your personal preferences, and how you plan to use the files. You may end up using some of all three methods. The goal of this exercise is to introduce you to each method, so you can find a workflow that feels comfortable to you. 
 
-> __Personal Tidbit:__ my own workflow changes with what I am doing. Right now, most of my writing ends up on our campus LMS so it needs to be plain HTML. Occasionally I write handouts that need to be in MS Word (.docx) format. I prefer to write drafts in a commercial plain text editor that shows Markdown codes in color. I work across multiple computers, so even early draft files go into a GitHub repository. That way I can access them anywhere. 
+> __Personal Tidbit:__ my own workflow changes with what I am doing. Right now, most of my writing ends up on our campus LMS so it needs to be plain HTML. Occasionally I write handouts that need to be in MS Word (.docx) format. I prefer to write drafts in a commercial plain text editor that shows Markdown codes in color. I work across multiple computers, so even the early draft files go into a GitHub repository so I can access them anywhere. 
 >
-> When it is time to generate output, the text editor I use converts Markdown directly to plain HTML that I can copy/paste straight into our LMS. I use R Studio to generate MS Word documents and build online books. I rarely make PDFs anymore because they can be hard for screen readers to translate. 
+> When it is time to generate output, the text editor I use converts Markdown directly to plain HTML that I can copy/paste straight into our LMS. I use R Studio to generate MS Word documents and build online books. I rarely make PDFs anymore because they are hard for screen readers to translate. 
 
 <br>
 
@@ -678,9 +693,9 @@ The workflow for creating and editing .md files in a browser is a bit different.
 
 ### Writing Tips and Tricks
 
-* Always start Markdown pages with a Level 1 header that is the title of the document. I reserve the Level 1 header just for that purpose. This does not seem very useful at first, but it becomes essential when you start compiling multiple .md files into longer documents or books.
+* Always start Markdown pages with a Level 1 header that is the title of the document. Reserve the Level 1 header just for that purpose. This does not seem very useful at first, but it becomes essential when you start compiling multiple .md files into longer documents or books.
 * It is tempting to remove spaces between lines of text in .md files. BAD idea! Markdown relies on blank lines to keep track of blocks of text. When Markdown is rendered, extra blank lines are deleted automatically.
-* When editing inside GitHub, pages may extend beyond the screen. If so, look at the upper right of the editor window for a drop-down that says __No wrap__. Click it and choose __Soft wrap__. This keeps sentences and paragraphs from running off the right side of the screen. 
+* When editing inside GitHub or a text editor, pages may extend beyond the screen. If so, for a drop-down or setting in the Preferences that says __Soft wrap__. This keeps sentences and paragraphs from running off the right side of the screen. 
 
 <!--- Break for ========================== NEW PAGE-->
 
@@ -696,7 +711,7 @@ You have edited and saved your .md files locally. Now the local repository on yo
 
 > __Do I HAVE to use GitHub?__ Nope, it is entirely up to you. You can copy files from any GitHub public repository; only the private repositories are restricted to account holders. If you never share files with other people, only work with local copies, and have a good back-up service already, then you may not need it. 
 >
-> GitHub has benefits though. You can share files with others, get their suggestions, then decide whether or not to incorporate them. If you work across multiple computers (home and work for example), GitHub helps ensure you always are working on the most recently updated files. You also can set up a personal web site for each repository you have. If you are interested in using R or data science tools in your lab courses, then you definitely want to become comfortable using GitHub. 
+> GitHub has many benefits though. You can share files with others, get their suggestions, then decide whether or not to incorporate them. If you work across multiple computers (home and work for example), GitHub helps ensure you always are working on the most recently updated files. You also can set up a personal web site for each repository you have. If you are interested in using R or data science tools in your lab courses, then you definitely want to become comfortable using GitHub. 
 
 <br/>
 
@@ -788,7 +803,7 @@ Many plain text editors (though oddly, not R Studio) can convert Markdown to ver
 
 5. If you open the version of the file with the .html extension in your plain text editor, you will see it has been rewritten using HTML markup. You can copy and paste the HTML code into most LMS pages. Alternatively, you can share the file itself with others; they can open it in any web browser.
 
-> __Why not use R Studio for HTML?__ You can, but when R Studio generates standalone HTML files, it embeds the raw code for every image plus a LOT of extra styling code. For example, the HTML file containing the handouts for this workshop that was generated using the Ashkanph converter is 63 Kb. The same HTML file generated using R Studio is 6 Mb. This problem goes away when R Studio creates books; the HTML files are very compact, because they reference separate styling and image files rather than embedding them. 
+> __Why not use R Studio for HTML?__ When R Studio generates standalone HTML files, it embeds the raw code for every image plus a LOT of extra styling code. For example, the HTML file containing the handouts for this workshop that was generated using the Ashkanph converter is 63 Kb. The same HTML file generated using R Studio is 6 Mb. This problem goes away when R Studio creates books; the HTML files are very compact, because they reference separate styling and image files rather than embedding them. 
 
 <br>
 
