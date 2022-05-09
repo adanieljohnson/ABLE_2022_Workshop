@@ -525,7 +525,7 @@ Blocks of text that should be displayed as written and not be rendered
 are enclosed between three backticks. Blocked typed like this:
 
 ```` ```Block of text or code that should NOT be rendered, like this __bold__ word. ````
-\`\`\`
+````
 
 are rendered like this:
 
@@ -1254,11 +1254,8 @@ Join our group on QUBES Hub to:
 
 -   Learn how we use a Six Elements Model (which was presented at
     ViABLE 2021) to introduce undergraduates to scientific writing;
-
 -   See what other teaching and assessment resources are available;
-
 -   Get notified when new resources are published; and
-
 -   Contribute to the ongoing projects!
 
 # Links to Resources
