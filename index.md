@@ -20,7 +20,12 @@ Many ABLE members already know __R and R Studio__, but may not know it is a GREA
 1. You will register for a free GitHub account and connect GitHub Desktop to your GitHub account. If you do not have it already you will install R and R Studio. 
 2. In the first half of the workshop, you'll copy the text files for our Writing Resource Guide from this repository to your personal account. You'll then create new pages or edit the existing ones.
 3. After the break you will learn different ways to convert Markdown files into well-structured HTML and Word documents. 
-4. You will leave with:
+4. At the end we will discuss these points as a group:
+    + Technical issues or potential bottlenecks or challenges in converting files; how to build your workflow.
+    + Pedagogical issues; topics that participants think are needed in the Resource Guide.
+    + Questions about the writing instructional strategy used. 
+    + Suggestions for improving the Writing Guide or for making it more useful.
+5. You will leave with:
     + A complete copy to our Science Writing Resource Guide that you can use in your own courses;
     + Working knowledge of all the tools you need to revise the Guide to fit your exact needs; 
     + Low-cost collaborative authoring and file management tools that you can use MANY other ways.
