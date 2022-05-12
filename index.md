@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to ABLE 2022
 
 You can use the [editor on GitHub](https://github.com/adanieljohnson/ABLE_2022_Workshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
