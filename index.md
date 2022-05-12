@@ -2,7 +2,7 @@
 
 This web page and linked GitHub repository are for the Major Workshop:
 
-**Using Markdown and Free Online Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide**
+> **Using Markdown and Free Online Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide**
 
 ### Workshop Goals
 
