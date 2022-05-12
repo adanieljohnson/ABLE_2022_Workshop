@@ -1,7 +1,8 @@
-Workshop Handouts
+## What Is Pandoc
 
+Pandoc is a versatile script/tool that reads files in one format, and outputs them in a different format. It __greatly__ simplifies file conversions. When a program interconverts a file for you, very often the program is using Pandoc in the background. The full guide to Pandoc is [here](https://pandoc.org/).
 
-Pandoc is a versatile tool for reading files in one format, and outputting them in a different format. It greatly simplifies file conversions. The types of files it will convert include:
+The types of files that Pandoc can inter-convert include:
 
 __Document Files__
 asciidoc (AsciiDoc) 
