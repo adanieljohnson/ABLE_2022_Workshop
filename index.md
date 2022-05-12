@@ -1,37 +1,34 @@
 ## Welcome to ABLE 2022
 
-You can use the [editor on GitHub](https://github.com/adanieljohnson/ABLE_2022_Workshop/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This web page and linked GitHub repository are for the Major Workshop:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Using Markdown and Free Online Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide**
 
-### Markdown
+Click on the link to the repository to the left anytime you want to see the files for the workshop.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Late Breaking News
 
-```markdown
-Syntax highlighted code block
+* The STEM Writing Project is moving to a public space on the QUBES Hub. There you can find these resources and contribute to the project:
+    + An overview of our Six Elements Model for teaching and assessing scientific writing.
+    + Links to the open-source, multi-format Biology Writing Guide (no need to wait until May 2023 to get access via ABLE publication.)
+    + Structured training activities for both students and instructors. 
+    + Diagnostic activities so instructors can adjust the basic instructional strategy to local needs.
+    + Automated supports that streamline routine data collection. 
+        - For the NSF-sponsored project that led to SEM, we created SAWHET (STEM Automated Writing Help Tool), a web-based report collection tool. Students submitted lab reports to SAWHET, which performed basic completion checks and text analysis, then gave student tailored feedback on what was missing or might need improvement.
+        - The project version used proprietary software. So we rebuilt our web form as an R Shiny app.
+        SAWHET 2 is available for you to use on QUBES Hub, and the code is freely available for others to revise.
+    + A collection of >4,000 de-identified biology student lab reports with metadata that can be used as:
+        - Examples for training instructors; 
+        - Research data for linguistic analyses, etc.;
+        - Data for test other automated systems.
+    + Bins-based scoring (presented at ViABLE 2021),
+    + Reflective, coaching-oriented feedback,
+    + Strategies for assessing student writing at BIO100 scales. 
+        - We have several proxy metrics based on document features
+        - We are working on automated move analysis right now
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adanieljohnson/ABLE_2022_Workshop/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* The most recent version of R Studio has a visual R Markdown option. 
+    + As best I can tell it may play well with bookdown but it also MAY NOT. So I cannot recommend using it universally yet. 
+    + If you are not building books with bookdown, the visual mode means you can create and edit Markdown right in R Studio then use its embedded Pandoc tool to convert to .docx format. 
+    + R Studio still writes obscenely complex .html, so I still do not recommend using it for that.
+    + For now I'm sticking with my plain text editor. The fewer potential breakdown points I have, the better.
