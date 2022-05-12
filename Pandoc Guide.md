@@ -17,7 +17,7 @@ __Document Files__
 * icml (InDesign ICML)
 * odt (OpenOffice text document)
 * opendocument (OpenDocument)
-* pdf (PDF) (_It is NOTORIOUSLY hard to get text out of PDFs any other way_)
+* pdf (PDF) (_Pandoc can export PDFs, but cannot read and convert them to other formats_)
 * rst (reStructuredText)
 * rtf (Rich Text Format)
 * texinfo (GNU Texinfo)
