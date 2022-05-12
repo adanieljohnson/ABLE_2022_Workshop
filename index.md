@@ -4,7 +4,27 @@ This web page and linked GitHub repository are for the Major Workshop:
 
 **Using Markdown and Free Online Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide**
 
-Click on the link to the repository to the left anytime you want to see the files for the workshop.
+### Workshop Goals
+
+Today you will learn to use Markdown, GitHub and GitHub Desktop, and Pandoc text converter.
+
+__Markdown__ is a lightweight but very versatile text markup language that lets authors write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text with Markdown tags remains easy to read. 
+
+__GitHub__ is a no/low cost, secure project and data sharing space that operates seamlessly between institutions. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects.  
+
+Many ABLE members already know __R and R Studio__, but may not know it is ALSO a great place to write reusable documents. R Studio uses Pandoc, the universal document converter.
+
+
+### Flow of the Workshop
+
+You will register for a free GitHub account and connect GitHub Desktop to your GitHub account. If you do not have it already you will install R and R Studio. 
+
+In the first half of the workshop, you'll copy the text files for our Writing Resource Guide from this repository to your personal account. You'll then create new pages or edit the existing ones.
+
+After the break you will learn how to convert Markdown files into well-structured HTML and Word documents. 
+
+You will leave with a complete copy to our Science Writing Resource Guide which you can use in your own courses, and all the tools you need to revise it to fit your exact needs.
+
 
 ### Late Breaking News
 
@@ -14,21 +34,14 @@ Click on the link to the repository to the left anytime you want to see the file
     + Structured training activities for both students and instructors. 
     + Diagnostic activities so instructors can adjust the basic instructional strategy to local needs.
     + Automated supports that streamline routine data collection. 
-        - For the NSF-sponsored project that led to SEM, we created SAWHET (STEM Automated Writing Help Tool), a web-based report collection tool. Students submitted lab reports to SAWHET, which performed basic completion checks and text analysis, then gave student tailored feedback on what was missing or might need improvement.
-        - The project version used proprietary software. So we rebuilt our web form as an R Shiny app.
-        SAWHET 2 is available for you to use on QUBES Hub, and the code is freely available for others to revise.
     + A collection of >4,000 de-identified biology student lab reports with metadata that can be used as:
-        - Examples for training instructors; 
-        - Research data for linguistic analyses, etc.;
-        - Data for test other automated systems.
     + Bins-based scoring (presented at ViABLE 2021),
     + Reflective, coaching-oriented feedback,
     + Strategies for assessing student writing at BIO100 scales. 
-        - We have several proxy metrics based on document features
-        - We are working on automated move analysis right now
 
 * The most recent version of R Studio has a visual R Markdown option. 
     + As best I can tell it may play well with bookdown but it also MAY NOT. So I cannot recommend using it universally yet. 
-    + If you are not building books with bookdown, the visual mode means you can create and edit Markdown right in R Studio then use its embedded Pandoc tool to convert to .docx format. 
-    + R Studio still writes obscenely complex .html, so I still do not recommend using it for that.
     + For now I'm sticking with my plain text editor. The fewer potential breakdown points I have, the better.
+
+
+
