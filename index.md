@@ -16,34 +16,31 @@ Many ABLE members already know __R and R Studio__, but may not know it is a GREA
 
 
 ### What We'll Do
-You will register for a free GitHub account and connect GitHub Desktop to your GitHub account. If you do not have it already you will install R and R Studio. 
 
-In the first half of the workshop, you'll copy the text files for our Writing Resource Guide from this repository to your personal account. You'll then create new pages or edit the existing ones.
-
-After the break you will learn different ways to convert Markdown files into well-structured HTML and Word documents. 
-
-You will leave with:
-
-* A complete copy to our Science Writing Resource Guide that you can use in your own courses;
-* A basic understanding of all the tools you need to revise the Guide to fit your exact needs; 
-* New authoring and file management tools that you can use MANY other ways.
+1. You will register for a free GitHub account and connect GitHub Desktop to your GitHub account. If you do not have it already you will install R and R Studio. 
+2. In the first half of the workshop, you'll copy the text files for our Writing Resource Guide from this repository to your personal account. You'll then create new pages or edit the existing ones.
+3. After the break you will learn different ways to convert Markdown files into well-structured HTML and Word documents. 
+4. You will leave with:
+    + A complete copy to our Science Writing Resource Guide that you can use in your own courses;
+    + Working knowledge of all the tools you need to revise the Guide to fit your exact needs; 
+    + Low-cost collaborative authoring and file management tools that you can use MANY other ways.
 
 
 ### Late Breaking News
 
 * The __STEM Writing Project__ is moving to a public space on the [QUBES Hub](https://qubeshub.org/community/groups/stemwritingproject). There you can find:
     + An overview of our Six Elements Model for teaching and assessing scientific writing.
-    + Links to the open-source, multi-format Biology Writing Guide (no need to wait until May 2023 to get access via ABLE publication.)
+    + Links to the open-source, multi-format Biology Writing Guide (what we did today)
     + Structured training activities for both students and instructors. 
     + Diagnostic activities so instructors can adjust the basic instructional strategy to local needs.
     + Automated supports that streamline routine data collection. 
-    + A collection of >4,000 de-identified biology student lab reports with metadata that can be used as:
     + Bins-based scoring (presented at ViABLE 2021),
     + Reflective, coaching-oriented feedback,
-    + Strategies for assessing student writing at BIO100 scales. 
+    + Strategies for assessing student writing at BIO100 scales, and 
+    + A collection of >4,000 de-identified biology student lab reports with metadata that you can use to your own students and TAs.
 
-* The most recent version of R Studio offers the option to use a visual R Markdown editor. 
-    + As best I can tell it MAY play well with bookdown but it also MAY NOT. So I cannot recommend using it universally yet. 
+* __R Studio's__ newest version offers an option to use a visual R Markdown editor. 
+    + As best I can tell it MAY NOT play well with bookdown. So I cannot recommend using it universally yet. 
     + For now I'm sticking with my plain text editor. The fewer potential breakdown points I have, the better.
 
 
