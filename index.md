@@ -31,7 +31,7 @@ Many ABLE members already know __R and R Studio__, but may not know it is a GREA
     + Low-cost collaborative authoring and file management tools that you can use MANY other ways.
 
 
-### Late Breaking News
+## Late Breaking News
 
 * The __STEM Writing Project__ is moving to a public space on the [QUBES Hub](https://qubeshub.org/community/groups/stemwritingproject). There you can find:
     + An overview of our Six Elements Model for teaching and assessing scientific writing.
