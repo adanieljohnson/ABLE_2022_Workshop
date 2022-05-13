@@ -6,7 +6,7 @@ This web page and linked GitHub repository are for the Major Workshop:
 
 ### Workshop Goals
 
-It's easier to learn new skills when you have a specific job to do. So today you will learn to use Markdown, GitHub and GitHub Desktop, and Pandoc text converter by revising pages in our ___Scientific Writing Guide___.
+We have two goals. The first goal is introducing you to our ___Scientific Writing Guide___.The other goal today is to introduce you to a set of tools that can make routine writing tasks easier, and let you move texts seamlessly between digital and print formats.
 
 __Markdown__ is a lightweight but very versatile text markup language that lets authors write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text with Markdown tags remains easy to read. 
 
@@ -14,21 +14,22 @@ __GitHub__ is a no/low cost, secure project and data sharing space that operates
 
 Many ABLE members already know __R and R Studio__, but may not know it is a GREAT tool for writing and managing reusable documents. R Studio uses __Pandoc__, the universal document converter, to repurpose Markdown files. It also connects directly with GitHub.
 
+We learn new skills faster when we have a specific job to do. So today you will use Markdown, GitHub and GitHub Desktop, and Pandoc text converter to add and revise pages for the Writing Guide.
+
 
 ### What We'll Do
 
 1. You will register for a free GitHub account and connect GitHub Desktop to your GitHub account. If you do not have it already you will install R and R Studio. 
 2. In the first half of the workshop, you'll copy the text files for our Writing Resource Guide from this repository to your personal account. You'll then create new pages or edit the existing ones.
-3. After the break you will learn different ways to convert Markdown files into well-structured HTML and Word documents. 
-4. At the end we will discuss these points as a group:
+3. After the break you will try out different ways to convert Markdown files into well-structured HTML and Word documents. 
+4. At the end we will discuss as a group:
     + Technical issues or potential bottlenecks or challenges in converting files; how to build your workflow.
-    + Pedagogical issues; topics that participants think are needed in the Resource Guide.
-    + Questions about the writing instructional strategy used. 
+    + Pedagogical issues; topics that participants think are missing from the Resource Guide.
     + Suggestions for improving the Writing Guide or for making it more useful.
 5. You will leave with:
-    + A complete copy to our Science Writing Resource Guide that you can use in your own courses;
+    + A complete copy of the text of our Science Writing Resource Guide that you can use in your own courses;
     + Working knowledge of all the tools you need to revise the Guide to fit your exact needs; 
-    + Low-cost collaborative authoring and file management tools that you can use MANY other ways.
+    + Some new low-cost collaborative authoring and file management tools that you can use MANY other ways.
 
 
 ## Late Breaking News
