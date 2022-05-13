@@ -6,27 +6,28 @@ This web page and linked GitHub repository are for the Major Workshop:
 > 
 > Led by Dan Johnson, from Wake Forest University
 
-### Workshop Goals
+### We Have Two Workshop Goals
 
-We have two goals. The first goal is introducing you to our ___Scientific Writing Guide___.The other goal today is to introduce you to a set of tools that can make routine writing tasks easier, and let you move texts seamlessly between digital and print formats.
+The first goal is introducing you to our ___Scientific Writing Guide___.The other goal today is to introduce you to a set of tools that can make routine writing tasks easier, and let you move texts seamlessly between digital and print formats. 
 
-__Markdown__ is a lightweight but very versatile text markup language that lets authors write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text with Markdown tags remains easy to read. 
+We learn new skills faster when we have a specific job to do. So today you will use Markdown, GitHub plus GitHub Desktop, and Pandoc text converter to add and revise pages for the Writing Guide.
+
+__Markdown__ is a lightweight but very versatile text markup language that lets you write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text containing Markdown tags still is easy to read. 
 
 __GitHub__ is a no/low cost, secure project and data sharing space that operates seamlessly between institutions. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects.  
 
-Many ABLE members already know __R and R Studio__, but may not know it is a GREAT tool for writing and managing reusable documents. R Studio uses __Pandoc__, the universal document converter, to repurpose Markdown files. It also connects directly with GitHub.
+Many ABLE members already know __R and R Studio__, but may not know it is a GREAT tool for writing and managing reusable documents. R Studio uses __Pandoc__, the universal document converter, to convert Markdown files. R Studio also connects directly with GitHub.
 
-We learn new skills faster when we have a specific job to do. So today you will use Markdown, GitHub and GitHub Desktop, and Pandoc text converter to add and revise pages for the Writing Guide.
 
 
 ### What You'll Do
 
 1. You will register for a free GitHub account and connect it to GitHub Desktop. If you do not have it already you will install R and R Studio. 
-2. In the first half of the workshop, you'll copy text and image files for our Writing Resource Guide from this workshop repository to your personal account. You'll then create new pages or edit the existing ones using Markdown.
-3. After the break you will try out several different ways to convert Markdown files into well-structured HTML and Word documents. 
-4. At the end we will discuss as a group:
+2. In the first half of the workshop, you'll copy text and image files for the Writing Resource Guide from this workshop repository to your personal account. You'll then create new pages or edit the existing ones using Markdown.
+3. After our break you will try out several different ways to convert Markdown files into well-structured HTML and Word documents. 
+4. At the end we will discuss:
     + Technical challenges or potential bottlenecks; how to build your workflow.
-    + Pedagogical issues; topics that you and other participants think are missing from the Writing Guide.
+    + Topics that you and other participants think are missing from the Writing Guide.
     + Suggestions for improving the Writing Guide or for making it more useful.
 5. You will leave with:
     + A complete copy of the text of our Science Writing Resource Guide that you can use in your own courses;
