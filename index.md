@@ -3,7 +3,7 @@
 This web page and linked GitHub repository are for the Major Workshop:
 
 > **Using Markdown and Free Online Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide**
-> > Led by Dan Johnson, from Wake Forest University
+> Led by Dan Johnson, from Wake Forest University
 
 ### Workshop Goals
 
