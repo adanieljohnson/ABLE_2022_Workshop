@@ -6,36 +6,41 @@ This web page and linked GitHub repository are for the Major Workshop:
 > 
 > Led by Dan Johnson, from Wake Forest University
 
-### We Have Two Workshop Goals
+### We Have THREE Workshop Goals
 
-The first goal is introducing you to our ___Scientific Writing Guide___.The other goal today is to introduce you to a set of tools that can make routine writing tasks easier, and let you move texts seamlessly between digital and print formats. 
+The first goal is introducing you to our ___Scientific Writing Resource Guide___. This Guide is part of a larger project to improve how we teach scientific writing. You will:
 
-We learn new skills faster when we have a specific job to do. So today you will use Markdown, GitHub plus GitHub Desktop, and Pandoc text converter to add and revise pages for the Writing Guide.
+* See what is in it already.
+* Identify what new page you might add so it fits YOUR needs.
+* Learn how you can edit and fine tune it.
+* Help us ID additional needs, resources.
 
-__Markdown__ is a lightweight but very versatile text markup language that lets you write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text containing Markdown tags still is easy to read. 
+The second goal today is to introduce you to __Markdown__, a lightweight but very versatile text markup language that lets you write well-structured texts once then reuse them multiple ways. It is extremely easy to learn and text containing Markdown tags still is easy to read.
 
-__GitHub__ is a no/low cost, secure project and data sharing space that operates seamlessly between institutions. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects.  
+We learn new skills faster when we have a specific job to do. So you will use Markdown to add and revise pages for the Writing Guide. Then you will use Pandoc and R Studio to convert Markdown files to other formats.
 
-Many ABLE members already know __R and R Studio__, but may not know it is a GREAT tool for writing and managing reusable documents. R Studio uses __Pandoc__, the universal document converter, to convert Markdown files. R Studio also connects directly with GitHub.
+If time allows we will see how to set up __GitHub__, which is a no/low cost, secure project and data sharing space that operates seamlessly between institutions. GitHub also is becoming a destination for hosting blogs, static websites, and open-access book projects.  
 
+The third goal is to expand and experiment with our workshop model. I planned to be at workshop, but had to re-envision it for Zoom; I expect we will have others with this challenge in future. We will be testing some strategies for making Zoom workshops more engaging. At the end we will talk about what did or did not work, and include it in the write-up so we have another tool in ABLE toolbox.
 
 
 ### What You'll Do
 
 1. You will register for a free GitHub account and connect it to GitHub Desktop. If you do not have it already you will install R and R Studio. 
-2. In the first half of the workshop, you'll copy text and image files for the Writing Resource Guide from this workshop repository to your personal account. You'll then create new pages or edit the existing ones using Markdown.
+2. In the first half of the workshop, you'll copy text and image files for the Writing Resource Guide from this GitHub workshop repository to your personal computer. You'll then create new pages or edit the existing ones using Markdown.
 3. After our break you will try out several different ways to convert Markdown files into well-structured HTML and Word documents. 
-4. At the end we will discuss:
+4. I will demo how GitHub, R Studio, and free tools can give plain texts superpowers.
+5. At the end we will discuss:
     + Technical challenges or potential bottlenecks; how to build your workflow.
     + Topics that you and other participants think are missing from the Writing Guide.
     + Suggestions for improving the Writing Guide or for making it more useful.
-5. You will leave with:
+6. You will leave with:
     + A complete copy of the text of our Science Writing Resource Guide that you can use in your own courses;
     + Working knowledge of all the tools you need to revise the Guide to fit your exact needs; 
     + New low-cost collaborative authoring and file management tools that you can use MANY other ways.
 
 
-## Late Breaking News
+## Related News
 
 * The __STEM Writing Project__ is moving to a [public space on the QUBES Hub](https://qubeshub.org/community/groups/stemwritingproject). There you can find:
     + An overview of our Six Elements Model for teaching and assessing scientific writing.
@@ -46,9 +51,7 @@ Many ABLE members already know __R and R Studio__, but may not know it is a GREA
     + Automated supports that streamline routine data collection. 
     + Guides to:
         - Bins-based scoring (presented at ViABLE 2021),
-        - Reflective, coaching-oriented feedback,
-        - Strategies for assessing student writing at BIO100 scales, and 
+        - Reflective, coaching-oriented feedback, and
+        - Strategies for assessing student writing in high-enrollment courses.
 
-* __R Studio's__ newest version offers an option to use a visual R Markdown editor. 
-    + As best I can tell it MAY NOT play well with bookdown. So I cannot recommend using it universally yet. 
-    + The fewer potential breakdown points I have, the better. So I'm sticking with my plain text editor for now. 
+* We are presenting a workshop for BioQuest at __BIOME 2022__ on how to give students reflective, coaching-oriented feedback.
