@@ -42,6 +42,7 @@ The third goal is to expand and experiment with our workshop model. I planned to
 
 ## Related News
 
+![Logo](/assets/SWP_logo.png)
 * The __STEM Writing Project__ is moving to a [public space on the QUBES Hub](https://qubeshub.org/community/groups/stemwritingproject). There you can find:
     + An overview of our Six Elements Model for teaching and assessing scientific writing.
     + Links to the open-source, multi-format Biology Writing Guide (what we used today)
