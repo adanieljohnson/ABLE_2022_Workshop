@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ABLE 2022-Workshop ver 4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="major-workshop-application-for-able-2022">Major Workshop Application for ABLE 2022</h1>
+<h2 id="application-checklist">Application Checklist</h2>
+<p>Application is a PDF or MS Word document that includes:</p>
+<ul class="task-list">
+<li><input type="checkbox" disabled="" checked="" />
+Workshop title and name(s)of presenters</li>
+<li><input type="checkbox" disabled="" checked="" />
+Abstract describing the proposed workshop (300 words maximum)</li>
+<li><input type="checkbox" disabled="" checked="" />
+Participant handouts (see note to reviewers below)</li>
+<li><input type="checkbox" disabled="" checked="" />
+A list of equipment and supplies needed for a class of 25 students</li>
+<li><input type="checkbox" disabled="" />
+Notes for the Instructor (will be completed post-workshop)</li>
+<li><input type="checkbox" disabled="" checked="" />
+Sample results (available from workshop repository)</li>
+<li><input type="checkbox" disabled="" checked="" />
+A description of how you will present the laboratory to conference participants</li>
+<li><input type="checkbox" disabled="" />
+Student/TA evaluations of this exercise as a learning experience (not applicable)</li>
+<li><input type="checkbox" disabled="" checked="" />
+Application deadline: November 30th.</li>
+</ul>
+<h2 id="editing-notes">Editing Notes</h2>
+<p><strong>12/29/21</strong></p>
+<ol type="1">
+<li>Amy Marion and Sphida Migabo both approved the revised title and abstract.</li>
+</ol>
+<p><strong>12/21/21</strong></p>
+<ol type="1">
+<li><p>I extensively revised the abstract and wrote a new title to bring more people into the workshop. I also made it clear that participants do not need any technical skills.</p></li>
+<li><p>GitHub and R Studio are rock solid tools, but using online services and downloaded software is always a worry. In case they misbehave, I do have backup plans:</p>
+<ul>
+<li>If a participant does not want or is unable to register for GitHub, or if GitHub Desktop fails to install, they still can download the public conference repository containing all of the Markdown files without a GitHub account.</li>
+<li>I also plan to bring 4-5 flash drives that participants can take with them that have the complete set of Resource Guide files. They will not be able to complete the repository exercise, but this is not essential; I included the repository exercise more to introduce ABLErs to the concept of using shared repositories.</li>
+<li>If someone is unable to install R and R Studio, they will not be able to convert their own .md files to Word documents. If this happens, I plan to have them share with a partner using a flash drive, and let the partner do the conversion for them.</li>
+<li>In the very unlikely event someone does not have a plain text editor on their computer, I have provided links to Atom, Sublime, and Bluefish. All three are free cross-platform plain text editors. Atom handles Markdown particularly well.</li>
+</ul></li>
+<li><p>The <a href="https://github.com/adanieljohnson/ABLE_2022_Workshop">ABLE 2022 GitHub repository</a> is live. I’ve already uploaded the Markdown document with the handouts for this workshop, plus the conversions to HTML and Word.docx. There will be a folder there with the finalized Writing Resource Guide .md files in a Markdown document, then converted it to MS Word for final formatting and submission. The original “.md” file is available to participants from this workshop’s</p></li>
+</ol>
+<br>
+<hr/>
+<p><br></p>
+<h1 id="major-workshop-proposal">Major Workshop Proposal</h1>
+<h2 id="title-using-markdown-and-free-tools-to-write-publish-and-share-an-open-source-scientific-writing-guide">Title: Using Markdown and Free Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide</h2>
+<h2 id="presenter">Presenter</h2>
+<p>A. Daniel Johnson, Wake Forest University, Department of Biology, 1834 Wake Forest Road, Winston-Salem NC 27109, USA. <strong><em>johnsoad@wfu.edu</em></strong></p>
+<h2 id="abstract">Abstract</h2>
+<p>At the 2021 ViABLE conference we presented our “six elements model” for teaching scientific writing in multi-section introductory biology courses. One of our essential tools is a standardized Scientific Writing Resource Guide that students and instructors use across multiple courses. In response to manyrequests that we share our Resource Guide, it now is available as an open-source book that others can modify to meet their individual needs.</p>
+<p>To make our Guide easy to maintain and convert to different formats, we wrote it using Markdown. This lightweight markup language is <strong>ideal for writing lab materials</strong> because authors can write a text once, then output it in a variety of formats such as HTML5 for web pages, or Word/PDF documents for handouts. Groups of Markdown files can be combined to create interactive online books. Markdown takes ~20 minutes to learn, and marked text remains readable.</p>
+<p>Participants in this workshop do not need any prior technical knowledge beyond basic computer skills. They will learn to use Markdown by editing existing pages from our Guide, creating new pages, and converting both into formatted Word and HTML5 documents. We will demonstrate how to use R Studio to assemble collections of Markdown documents into books, and how to use GitHub to manage and share writing project files.</p>
+<p>Participants will leave with a complete copy of our Scientific Writing Resource Guide that they can revise to match their course requirements, the tools for writing and converting Markdown files to their preferred format, and a GitHub account where they can back up their project. Those interested can learn how to launch new book projects of their own, or contribute to our published edition of the Resource Guide.</p>
+<p><strong>Keywords</strong>: scientific writing, writing guidelines, Markdown, lab development tools, R Studio, web publishing</p>
+<br>
+<hr/>
+<p><br></p>
+<h2 id="introduction">Introduction</h2>
+<h3 id="the-scientific-writing-resource-guide">The Scientific Writing Resource Guide</h3>
+<p>Scientific writing helps students learn to state problems and present claims precisely, summarize evidence to support those claims, and explain their reasoning. For many years, our <em>Scientific Writing Resource Guide</em> has been one of our essential tools for teaching scientific writing in multiple courses. The Guide focuses on writing a lab report that models a journal article because the same components are used in most other forms of scientific communication too. Our general format conforms to the <strong><em>Council of Science Editors</em></strong> (8e) standards, with some modifications to make writing easier for students just starting out. The Resource Guide includes sections on data visualization, basic biostatistics, and how to cite literature.</p>
+<p>In 2021 we updated, expanded, and published our <a href="https://github.com/adanieljohnson/SWP_student_writing_guide">Writing Resource Guide</a>. Our goal is to support two audiences: undergraduates learning the craft of scientific writing, and biology instructors who either teach scientific writing to undergraduates or supervise teaching assistants who do. Rather than try to make one guide meet the needs of every possible audience, we designed ours to be an evolving resource, and released it <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">under terms of a Creative Commons BY-NC-SA 4.0 license</a> <img src="images/CC_logo.png" style="width:10.0%" />.</p>
+<p>The Guide is written in plain text using Markdown, so users can convert the Guide to whatever format is needed. Participants in this workshop will learn how to access and modify the Resource Guide using free tools. They can edit, extend or modify our Guide as needed to fit their particular needs and requirements, so long as they attribute its original source and do not use it commercially.</p>
+<h3 id="why-use-markdown-to-write-lab-documents">Why Use Markdown to Write Lab Documents?</h3>
+<p>Producing the shared Resource Guide introduced us to <strong>Markdown</strong>, a lightweight markup language that is <strong>extremely easy to use</strong>. Markdown is a <strong>great solution to the challenge of writing lab documents that may have to go to multiple destinations</strong>. With Markdown, authors write a text once then convert it into multiple file formats. It takes less than 20 minutes to learn most of the Markdown syntax needed for routine writing tasks, and marked-up text is still easy to read. Markdown can be converted to HTML5 so it plays well with most LMSs. It also can be converted directly into MS Word or PDF documents. With additional free tools, collections of Markdown documents can be compiled into interactive online books.</p>
+<p>To demonstrate the versatility of Markdown, all of the handouts for this workshop were written in Markdown, then converted to MS Word for final submission. The original “.md” file is available in the “Sample Files”” folder in the workshop’s <a href="https://github.com/adanieljohnson/ABLE_2022_Workshop">ABLE 2022 GitHub repository</a>.</p>
+<h3 id="about-this-workshop">About This Workshop</h3>
+<p>Participants in this workshop do not need any technical skills beyond basic computer skills. The exercises assume no prior knowledge of Markdown, the other tools, or computer coding.</p>
+<p><strong>Before the workshop</strong> participants should install the software tools. These tools are not essential, but make working with .md files easier. We will troubleshoot any installation problems at the start of the workshop.</p>
+<p>In the first half of the workshop participants will make personal copies of the files for our Resource Guide. Then they will try creating and editing Markdown documents using two tools: R Studio and a plain text editor. Finally they will save their new files to their personal GitHub account. In the second half of the workshop, participants will learn how they can use either R Studio or standalone tools to render their Markdown pages into HTML and MS Word formats. I will demonstrate how R Studio plus Bookdown can turn a collection of Markdown files into a book that can be hosted online or printed.</p>
+<p>Participants will leave this workshop with a complete copy of the Science Writing Resource Guide that they can revise to match their local needs, experience writing and editing Markdown, and a personal GitHub account from which to share their work with others or launch a book project (say, a new lab manual) of their own. Participants’ new and edited pages will help us identify what additional topics should be added to our Resource Guide. Those who are interested can learn how they can contribute and publish new materials to our Guide.</p>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="pre-workshop-assignment-install-the-required-software">Pre-Workshop Assignment: Install the Required Software</h1>
+<p>Give yourself enough time to install the software. GitHub Desktop takes 10-15 minutes to install. Registering for a new GitHub account takes 5-10 minutes. If you do not have it already, R Studio Desktop takes 10-15 minutes to install.</p>
+<p><strong>If an installation does not work, do not worry</strong>. We will troubleshoot installations at the beginning of the workshop, and we have workarounds if needed.</p>
+<h2 id="install-github-desktop">Install GitHub Desktop</h2>
+<p><strong>GitHub</strong> is a no/low cost, secure collaboration and code sharing site that is popular with data scientists and program developers. GitHub also is becoming a popular hub for hosting blogs, static websites, and e-books (for example, <a href="https://bookdown.org/yihui/rmarkdown/">Using Markdown inside R</a>.) GitHub Desktop greatly simplifies installation, creating an account, and handling repositories.</p>
+<p>Go to GitHub and follow their instructions for installing GitHub Desktop on your computer: <a href="https://desktop.github.com/">Downloading and Installing GitHub Desktop</a></p>
+<p>If you want to take a look around the application, <a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop">Getting Started With GitHub Desktop</a> is a good resource for learning what this program can do.</p>
+<h2 id="register-for-a-free-github-account">Register for a Free GitHub Account</h2>
+<p>GitHub Desktop should ask if you want to log into an existing account, or create a new one. If it does not do that automatically, go to the <a href="https://github.com/">GitHub home page</a> and follow the prompts to register. <strong>You do not need a private account for this workshop</strong>. If you start using GitHub regularly, a private account costs ~$50/year. GitHub definitely is a good investment; backups have saved me several times after I accidentally deleting important files.</p>
+<h2 id="install-r-and-r-studio-open-source-edition">Install R and R Studio Open Source Edition</h2>
+<p>If you have participated in one of ABLE’s prior workshops on R or R Studio, you may have these programs installed already. If not, download and install R (the engine) <strong>before</strong> R Studio Desktop (the user interface) on your computer. Usually both installations run smoothly without you having to do anything.</p>
+<ol type="1">
+<li><a href="https://cloud.r-project.org/">Download and install R</a>.
+<ul>
+<li>If you are a Windows user: Click on “Download R for Windows”, then click on “base”, then click on the Download link.</li>
+<li>If you are macOS user: Click on “Download R for (Mac) OS X”, then under “Latest release:” click on R-X.X.X.pkg, where R-X.X.X is the version number. For example, the latest version of R as of November 25, 2019 was R-3.6.1.</li>
+<li>If you are a Linux user: Click on “Download R for Linux” and choose your distribution for more information on installing R for your setup.</li>
+</ul></li>
+<li><a href="https://www.rstudio.com/products/rstudio/download/">Download and install R Studio</a>.
+<ul>
+<li>Scroll down to “Installers for Supported Platforms” near the bottom of the page.</li>
+<li>Click on the download link corresponding to your computer’s operating system.</li>
+</ul></li>
+</ol>
+<p>For more detailed instructions, consult <a href="https://moderndive.netlify.app/1-getting-started.html">Installing R and R Studio, Step by Step</a></p>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="exercise-1-copying-the-resource-guide-repository-from-github">Exercise 1: Copying the Resource Guide Repository From GitHub</h1>
+<h2 id="background">Background</h2>
+<p>GitHub stores files related to a project in a special folder called a <strong>repository</strong> (aka, “repo”). GitHub users can create separate repositories for different projects. Private repositories can only be seen by their owner and other GitHub users that the project owner specifies. Public repositories are available for anyone to view or copy, but users cannot add new files, or revise or remove existing files without the repository owner’s express permission.</p>
+<p>You do not have to be subscribed to GitHub to copy a public repository or use the files in it; you can download the contents of any public repository as a ZIP archive. However using GitHub to manage repositories can help you keep projects organized, and share them more efficiently.</p>
+<p>When you first install GitHub, you create a dedicated space inside your computer for storing repositories. After that you can make a copy of any repository you have rights to see and store that copy in your own GitHub account. The repository will be copied to your local space, <strong>and</strong> backed up online. Your copy contains all of the files that were in the project’s original repository.</p>
+<p>There are three kinds of GitHub copies: <strong>clones</strong>, <strong>forks</strong>, and <strong>branches</strong> (which we will not use). A clone is a completely independent copy. When you clone someone else’s repository, GitHub will tell you if there have been changes made to the original source repository, but those changes are not added to your copy, and any changes you make to your copy do not affect the source. We usually clone repositories when we want to use the files independently from their original authors.</p>
+<p>A fork is a repository copy that stays connected to its parent. All of the users are working collaboratively on the same set of files at the same time. Unlike a Google document though, changes made by collaborators have to be approved by the owner of the repository. Once changes are approved, they are merged into the repository and “pushed” to all collaborators’ copies of the repository. Forked repositories are useful when multiple authors work on one project. Every change is documented along with who made it. Individuals can work on separate files (and even different versions of the same file) without interfering with each other. Earlier versions of every file are available from the file archive.</p>
+<p>In this exercise you will be cloning the <strong>ABLE 2022 Workshop</strong> repository. You can edit any page or add new pages without damaging the source files. If you make a mistake in a document and cannot fix it, just download a new copy. You’ll also be using the <strong>Commit</strong> and <strong>Push</strong> commands. Do not worry about what they mean right now; we will talk in detail about them in Exercise 3.</p>
+<h2 id="procedure">Procedure</h2>
+<ol type="1">
+<li><p>Use a web browser to log into your GitHub account.</p></li>
+<li><p>Click on the URL (or type it in) to go directly to the ABLE workshop repository: <a href="https://github.com/adanieljohnson/ABLE_2022_Workshop">https://github.com/adanieljohnson/ABLE_2022_Workshop</a>. Alternatively, go to GitHub, look for the Search window at the top left, and enter <strong>adanieljohnson/ABLE_2022_Workshop</strong>. This is a shortcut to the project repository.</p></li>
+<li><p>What you see will be something similar to the screenshot below. Click on “Code” to open the window with the link to clone this repository.</p></li>
+</ol>
+<center>
+<figure>
+<img src="images/Home-ABLE.png" style="width:80.0%" alt="Main page of ABLE Workshop repository" /><figcaption aria-hidden="true">Main page of ABLE Workshop repository</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="4" type="1">
+<li>Copy the URL, and paste it somewhere. You will need it in the next steps.</li>
+</ol>
+<center>
+<figure>
+<img src="images/Code-ABLE.png" style="width:80.0%" alt="Orange arrow marks the URL to clone the repository." /><figcaption aria-hidden="true">Orange arrow marks the URL to clone the repository.</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="5" type="1">
+<li>Open GitHub Desktop. Go to <strong>File &gt; Clone Repository.</strong></li>
+</ol>
+<center>
+<figure>
+<img src="images/Clone-Repo-ABLE.png" style="width:80.0%" alt="GitHub Desktop" /><figcaption aria-hidden="true">GitHub Desktop</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="6" type="1">
+<li>Paste the URL you just copied into the window. Do not change the local path right now.</li>
+</ol>
+<center>
+<p><img src="images/Repo--Entry-Blank-ABLE.png" style="width:40.0%" />  <img src="images/Repo-Entry-Filled-ABLE.png" style="width:40.0%" /></p>
+</center>
+<p><br/></p>
+<ol start="7" type="1">
+<li>You should now have a copy of the files on your local hard drive. Use “View in Finder” to double-check.</li>
+</ol>
+<center>
+<figure>
+<img src="images/Repo-Ready-ABLE.png" style="width:80.0%" alt="Your copy of the ABLE 2022 Repository" /><figcaption aria-hidden="true">Your copy of the ABLE 2022 Repository</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="8" type="1">
+<li>Before continuing, you want to save a copy of your new repository and files to your personal online GitHub storage. On the main page of GitHub Desktop, you should see a list of files that have changed since they were last saved to your account. Give your update a SHORT name (yes, “Update” is fine.) Then click on <strong>Commit</strong> to formally save the changes locally.</li>
+</ol>
+<center>
+<figure>
+<img src="images/GitHub-commits-commented-ABLE.png" style="width:80.0%" alt="Committing changes to your local copy of the files." /><figcaption aria-hidden="true">Committing changes to your local copy of the files.</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="9" type="1">
+<li>To upload a permanent copy in your GitHub account, click on <strong>Push to origin</strong>.</li>
+</ol>
+<center>
+<figure>
+<img src="images/GitHub-push-ABLE.png" style="width:80.0%" alt="Pushing a copy of your changes to your main GitHub account" /><figcaption aria-hidden="true">Pushing a copy of your changes to your main GitHub account</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="10" type="1">
+<li><p>Now that your repo is saved, we can play. Open the folder named <strong>Sample Files</strong>. It contains .md files and the corresponding rendered HTML and MS Word formats. Open one of the .md files, then open the corresponding file with the .html or .docx extension.</p></li>
+<li><p>Using <strong>Handout for Exercise 1</strong> as your “.md to .html/.docx dictionary,” try to translate the markup in the .md files. As you work, think about these questions:</p>
+<ul>
+<li>How hard or easy is it to read the <strong>original text</strong> in the .md file?</li>
+<li>How does the markup translate into a web page?</li>
+<li>How does the marked up text translate into a Word document?</li>
+</ul></li>
+<li><p>If you make changes to your .md files, be sure to save them before going on to Exercise 2.</p></li>
+</ol>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="handout-for-exercise-1-introduction-to-markdown">Handout for Exercise 1: Introduction to Markdown</h1>
+<p>Markdown was created as a way for writers to annotate thir text quickly to show formatting without having to embed full HTML tags. The goal with Markdown is to separate the content (words of the text) of a document from the format (headers, paragraphs, bullets, etc.) from the. By using one well-defined set of marking conventions (called the <strong>syntax</strong>), we can use converters to read a marked-up text and render it to many different formats. For example, the converter we will be using can read Markdown and export it in any of &gt;55 text formats.</p>
+<h2 id="what-does-markdown-syntax-look-like">What Does Markdown Syntax Look Like?</h2>
+<p>Here is some text that has been formatted so you can see the the markup:</p>
+<pre><code>#### Level 4 Header - Formatting
+
+There are two main kinds of text formatting:
+* Inline formatting (\_italics\_, subscripts like H\~2\~SO\~4\~, etc.)
+* Block- or paragraph-level formatting (headings, sub-headings, etc.)</code></pre>
+<p>The number of hash (#) marks indicates the level of the header. Lines of text are separated by an extra space. Words or blocks of text that have specific formatting are surrounded by a pair of symbols indicating the type of formatting to apply. Here is what the same text looks like rendered:</p>
+<h4 id="level-4-header---formatting">Level 4 Header - Formatting</h4>
+<p>There are two main kinds of text formatting:</p>
+<ul>
+<li>Inline formatting (<em>italics</em>, subscripts like H<sub>2</sub>SO<sub>4</sub>, etc.)</li>
+<li>Block- or paragraph-level formatting (headings, sub-headings, lists, etc.)</li>
+</ul>
+<p>The rest of this handout explains the major markup codes. Keep a copy of this handout handy until you can remember the specific codes reliably.</p>
+<hr />
+<h2 id="markdown-codes-for-inline-formatting">Markdown Codes for Inline Formatting</h2>
+<p>The table shows how to mark text, and what it will look like when rendered.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Inline Formats</th>
+<th style="text-align: left;">How to Mark Them</th>
+<th style="text-align: left;">How They Appear</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Italics</td>
+<td style="text-align: left;">_italicized_ word</td>
+<td style="text-align: left;"><em>italicized</em> word</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">*italicized* word</td>
+<td style="text-align: left;"><em>italicized</em> word</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bold</td>
+<td style="text-align: left;">__bolded__ word</td>
+<td style="text-align: left;"><strong>bolded</strong> word</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">**bolded** word</td>
+<td style="text-align: left;"><strong>bolded</strong> word</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Bold Italics</td>
+<td style="text-align: left;">___marked___ word</td>
+<td style="text-align: left;"><strong><em>marked</em></strong> word</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"></td>
+<td style="text-align: left;">***marked*** word</td>
+<td style="text-align: left;"><strong><em>marked</em></strong> word</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Superscripts</td>
+<td style="text-align: left;">Super^script^ed letters</td>
+<td style="text-align: left;">Super<sup>script</sup>ed letters</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Subscripts</td>
+<td style="text-align: left;">Sub~script~ letters</td>
+<td style="text-align: left;">Sub<sub>script</sub>ed letters</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Horizontal rule</td>
+<td style="text-align: left;">***</td>
+<td style="text-align: left;">Draws a line across page <code>_____</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Inline code (not rendered)</td>
+<td style="text-align: left;">`code block`</td>
+<td style="text-align: left;"><code>code block</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Escape a special character</td>
+<td style="text-align: left;"><code>\*code block\*</code></td>
+<td style="text-align: left;">*code block*</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Links to web pages</td>
+<td style="text-align: left;"><code>[text](link)</code></td>
+<td style="text-align: left;"><a href="https://www.rstudio.com">RStudio</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Links with URL</td>
+<td style="text-align: left;"><code>[link](link)</code></td>
+<td style="text-align: left;"><a href="https://www.rstudio.com">https://www.rstudio.com</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Links to embed local images</td>
+<td style="text-align: left;"><code>![alt text or image title](path/to/local_image).</code></td>
+<td style="text-align: left;"><code>![Image on my desktop](/images/image_on_desktop.png)</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Links to embed image from web</td>
+<td style="text-align: left;"><code>![alt text or image title](https://upload.wikimedia.org/ wikipedia/commons/thumb/6/6c/ Biology_students_in_lab. jpg/320px-Biology_students_in_lab.jpg).</code></td>
+<td style="text-align: left;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Biology_students_in_lab.jpg/320px-Biology_students_in_lab.jpg" alt="Image on Wikimedia Commons" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="codes-for-block-level-formatting">Codes for Block Level Formatting</h2>
+<h3 id="headers">Headers</h3>
+<p>Header levels are indicated with 1-6 hash marks followed by a space.</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Block Formats</th>
+<th style="text-align: left;">How to Mark Them</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Level 1 Header</td>
+<td style="text-align: left;"><code># Level 1 Header</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Level 2 Header</td>
+<td style="text-align: left;"><code>## Level 2 Header</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Level 3 Header</td>
+<td style="text-align: left;"><code>### Level 3 Header</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Level 4 Header</td>
+<td style="text-align: left;"><code>#### Level 4 Header</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Level 5 Header</td>
+<td style="text-align: left;"><code>##### Level 5 Header</code></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Level 6 Header</td>
+<td style="text-align: left;"><code>###### Level 6 Header</code></td>
+</tr>
+</tbody>
+</table>
+<p>How they render:</p>
+<h1 id="level-1-header">Level 1 Header</h1>
+<h2 id="level-2-header">Level 2 Header</h2>
+<h3 id="level-3-header">Level 3 Header</h3>
+<h4 id="level-4-header">Level 4 Header</h4>
+<h5 id="level-5-header">Level 5 Header</h5>
+<h6 id="level-6-header">Level 6 Header</h6>
+<h3 id="paragraphs">Paragraphs</h3>
+<p>Regular paragraphs need to be separated by a blank line, or they will run together. For example, a text written like this, without spacing lines:</p>
+<pre><code>    There are several kinds of text formatting to explore.
+    Inline formatting text.
+    Block- or paragraph-level formatting.
+    Lists and quotes.</code></pre>
+<p>Looks like this when rendered:</p>
+<p>There are several kinds of text formatting to explore.Inline formatting text.Block- or paragraph-level formatting.Lists and quotes.</p>
+<p><br></p>
+<p>Text written WITH spacing lines like this:</p>
+<pre><code>    There are several kinds of text formatting to explore.
+
+    Inline formatting text.
+
+    Block- or paragraph-level formatting.
+
+    Lists and quotes.</code></pre>
+<p>Renders like this:</p>
+<p>There are several kinds of text formatting to explore.</p>
+<p>Inline formatting text.</p>
+<p>Block- or paragraph-level formatting.</p>
+<p>Lists and quotes.</p>
+<p><br></p>
+<p>Blockquotes are written after the “&gt;” symbol. A new “&gt;” symbol is needed after each line break. This text:</p>
+<pre><code>&gt; &quot;I thoroughly disapprove of duels. If a man should challenge me,
+  I would take him kindly and forgivingly by the hand and lead him
+  to a quiet place and kill him.&quot;
+&gt;
+&gt; --- Mark Twain</code></pre>
+<p>Renders like this:</p>
+<blockquote>
+<p>“I thoroughly disapprove of duels. If a man should challenge me, I would take him kindly and forgivingly by the hand and lead him to a quiet place and kill him.”</p>
+<p>— Mark Twain</p>
+</blockquote>
+<h3 id="preventing-text-from-rendering">Preventing Text From Rendering</h3>
+<p>Blocks of text that should be displayed as written and not be rendered are enclosed between three backticks. Blocked typed like this:</p>
+<p><code>```    Block of text or code that should NOT be rendered, like this __bold__ word.</code> ```</p>
+<p>are rendered like this:</p>
+<pre><code>   Block of text or code that should NOT be rendered, like this __bold__ word.</code></pre>
+<h3 id="hidden-comments">Hidden Comments</h3>
+<p>There are two ways to add comments to Markdown that will not display in the rendered text:</p>
+<pre><code>[//]: # (This comment in Markdown gets removed from both .html, and .docx)
+
+&lt;!--- This comment in Markdown is retained in .html, gets removed from .docx--&gt;</code></pre>
+<h2 id="lists">Lists</h2>
+<p>Bulleted or unordered lists need to be separated from the preceding paragraph by a blank line. The items start with *, +, or -, and you can nest one list within another list by indenting the sub-list by four spaces. For consistency, it is best to make it a habit of using one character for main bullets, and the other two for sub-bullets.</p>
+<p>A coded list looks like:</p>
+<pre><code>* First item
+* Second item
+    + First sub-item
+        - First sub-sub-item
+        - Second sub-sub-item
+    + Second sub-item
+* Third item</code></pre>
+<p>The output renders as:</p>
+<ul>
+<li>First item</li>
+<li>Second item
+<ul>
+<li>First sub-item
+<ul>
+<li>First sub-sub-item</li>
+<li>Second sub-sub-item</li>
+</ul></li>
+<li>Second sub-item</li>
+</ul></li>
+<li>Third item</li>
+</ul>
+<p>Ordered list items start with numbers, but the rule for nesting are the same as for unordered lists.</p>
+<pre><code>1. First item
+2. Second item
+    1. First sub-item
+        1. First sub-sub-item
+        2. Second sub-sub-item
+    2. Second sub-item
+3. Third item</code></pre>
+<p>The output renders as:</p>
+<ol type="1">
+<li>First item</li>
+<li>Second item
+<ol type="1">
+<li>First sub-item
+<ol type="1">
+<li>First sub-sub-item</li>
+<li>Second sub-sub-item</li>
+</ol></li>
+<li>Second sub-item</li>
+</ol></li>
+<li>Third item</li>
+</ol>
+<p>The two formats can be mixed together:</p>
+<pre><code>1. First item
+    + Sub-item
+    + Sub-item
+2. Second item
+3. Third item</code></pre>
+<p>Renders as:</p>
+<ol type="1">
+<li>First item
+<ul>
+<li>Sub-item</li>
+<li>Sub-item</li>
+</ul></li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<p>Numbered lists can be a bit fussy in Markdown. Sometimes they default to starting with #1. There is no simple and consistent way to force a list to start with a particular number. I usually fix this by editing the HTML or Word document directly, or just pre-number lists myself.</p>
+<h2 id="math-expressions">Math Expressions</h2>
+<p>Inline equations are written using standard LaTeX syntax, and enclosed by pairs of $ signs. This code:</p>
+<p><code>$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$</code></p>
+<p>Renders an inline version of the equation as:</p>
+<p><span class="math inline">$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$</span></p>
+<p>Equations in display style are written enclosed in a pair of double dollar signs. This code:</p>
+<p><code>$$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$</code></p>
+<p>Renders as:</p>
+<p><span class="math display">$$f(k) = {n \choose k} p^{k} (1-p)^{n-k}$$</span></p>
+<p><strong>Other Tips on Equations:</strong></p>
+<ul>
+<li>This link is for a tutorial on writing LaTeX equations. <a href="https://www.overleaf.com/learn/latex/Mathematical_expressions">Writing LaTeX equations</a></li>
+<li>This is a web page where you can write LaTeX equations using an online visual editor. <a href="https://latex.codecogs.com/legacy/eqneditor/editor.php">Online equation builder</a></li>
+<li>Markdown equations sometimes fail to render correctly. Always check any formatted equations you have in a .md file the first time you try out a new rendering tool.</li>
+<li>Unlike mathematicians, we usually do not need to edit equations after typing them the first time. So I usually will render them once, take a screen shot, and embed them as images. As with everything, whatever simplifies your workflow is what you should do, as long as you do it the same way every time.</li>
+</ul>
+<h2 id="handy-html-bits">Handy HTML Bits</h2>
+<p>There are some formats that Markdown does not handle well. For example, subscript and superscript marks may not work on the first character or number in a word (like <sup>3</sup>H) or on a whole word. Some other useful items are not in the GHFM syntax at all. You can fill in these gaps with a few basic HTML codes.</p>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">If you need to…</th>
+<th style="text-align: center;">Insert this HTML snippet</th>
+<th style="text-align: center;">For this result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Force a superscript for a whole word or first character</td>
+<td style="text-align: center;"><code>&lt;sup&gt;super&lt;/sup&gt;script</code></td>
+<td style="text-align: center;"><sup>super</sup>script</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Force a subscript for a whole word or first character</td>
+<td style="text-align: center;"><code>&lt;sub&gt;sub&lt;/sub&gt;script</code></td>
+<td style="text-align: center;"><sub>sub</sub>script</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Strike through text</td>
+<td style="text-align: center;"><code>&lt;strike&gt;This&lt;/strike&gt; word</code></td>
+<td style="text-align: center;"><strike>This</strike> word</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Add an extra space between items</td>
+<td style="text-align: center;"><code>&amp;nbsp;</code></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Add an extra line between items</td>
+<td style="text-align: center;"><code>&lt;br&gt;</code></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Add a horizontal rule between lines</td>
+<td style="text-align: center;"><code>&lt;hr/&gt;</code></td>
+<td style="text-align: center;"><code>_____</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Add Greek letters</td>
+<td style="text-align: center;"><code>&amp;alpha;, &amp;eta;</code></td>
+<td style="text-align: center;">α, η</td>
+</tr>
+</tbody>
+</table>
+<p>This page is a <a href="https://www.w3schools.com/html/html_formatting.asp">good source for other HTML shortcuts</a>. You csan find more <a href="https://www.w3schools.com/html/html_symbols.asp">information about special symbols here</a>.</p>
+<h2 id="learning-more">Learning More</h2>
+<p>These web resources can help you expand your Markdown writing skills. More are listed in the Notes for Instructors.</p>
+<ul>
+<li><a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GitHub’s Introduction to GHFM</a></li>
+<li><a href="https://www.pluralsight.com/guides/working-tables-github-markdown">Making Tables in Markdown</a></li>
+<li><a href="https://www.tablesgenerator.com/markdown_tables">Web-based Table Maker</a></li>
+<li>The <a href="https://github.github.com/gfm/">Official Specification for GHFM</a>. A <strong>very</strong> deep dive, but sometimes it is the best place to find answers to difficult formatting problems.</li>
+</ul>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="exercise-2-creating-and-editing-markdown-pages">Exercise 2: Creating and Editing Markdown Pages</h1>
+<h2 id="background-1">Background</h2>
+<h3 id="why-use-markdown-instead-of-ms-word">Why Use Markdown Instead of MS Word?</h3>
+<p>Markdown is intended for the <strong>start</strong> of the authoring workflow. Unlike MS Word, it is assumed that text will be used and reused across multiple formats. MS Word is desktop publishing software, meaning it is designed to produce polished print documents at the <strong>end</strong> of the authoring and publication workflow. To that end, Word files include a lot of hidden styling information that <strong>limits reusability</strong>.</p>
+<p>For example, if you have ever converted a long Word document into a web page, or combined several documents into one, you probably have seen unpredictable changes in format. This happens because of the embedded, hidden styling information. Markdown does not hide the formatting information, making it much easier to combine and convert documents.</p>
+<p>What other advantages does Markdown have beyond “write once, reuse many ways”?</p>
+<ol type="1">
+<li><p>Markdown files are plain text, which means they are <strong>VERY</strong> small compared to Word .docx files. For example the Markdown file containing the full set of handouts for this workshop is 54KB; the corresponding Word file is 3.8 MB (70x larger.)</p></li>
+<li><p>Markdown files do not have embedded images. They use an address to “call in” images when the document is rendered. One master set of images can be stored in a single location, and called into any Markdown document. If an image is updated, every document or web site that uses that image will use the new version the next time the file is generated.</p></li>
+<li><p>When a Markdown file is converted to another format, all of the headers, bold words, etc., get tagged with appropriate styling codes for that document type. This greatly reduces time spent reformatting converted documents.</p>
+<ul>
+<li>Say you create a long document, convert it to Word, and decide you want to convert all 155 section headers from blue to red text in a different font. You do not have to convert each header one at a time; change the master style settings for headers once, and every header changes.</li>
+<li>If you copy/paste Markdown HTML into an existing site (like an LMS page), the added text adopts the styles of its new location.</li>
+</ul></li>
+<li><p>Markdown is truly platform-agnostic. The same file can be edited on a Mac, a PC, and a Linux machine, and never have any compatibility problems.</p></li>
+<li><p>Markdown and any tools needed to convert it are available for free.</p></li>
+</ol>
+<h3 id="how-do-we-create-markdown-documents">How Do We Create Markdown Documents?</h3>
+<p>Unlike HTML, Markdown does not require any special code or starting text at the beginning of a new document. The only requirement is that the saved text file should have <strong>.md</strong> as the extension.</p>
+<p>There are many ways to write Markdown files. You can:</p>
+<ul>
+<li>Use a plain text editor on your computer. If you need to share your documents in many different places or formats, or are not sure where they will go, writing them in a standalone text editor is probably easiest.</li>
+<li>Write them entirely inside R Studio. R Studio includes a fairly good plain text editor. If you plan to manage your files entirely through R Studio, it makes sense to write your text files there too.</li>
+<li>Write text files inside GitHub via a browser. If you want to be 100% sure you never lose a single word, and don’t mind a few extra steps, writing directy in GitHub might be best. Files written in GitHub via a browser are saved immediately to their repository: no pulling or pushing needed. If you use R Studio or a standalone editor you will have to commit and push changes to GitHub from time to time.</li>
+</ul>
+<p>Which will work best for you depends on your personal preferences, and how you plan to use the files. You may end up using some of all three methods. The goal of this exercise is to introduce you to each method, so you can find a workflow that feels comfortable to you.</p>
+<blockquote>
+<p><strong>Personal Tidbit:</strong> my own workflow changes with what I am doing. Right now, most of my writing ends up on our campus LMS so it needs to be plain HTML. Occasionally I write handouts that need to be in MS Word (.docx) format. I prefer to write drafts in a commercial plain text editor that shows Markdown codes in color. I work across multiple computers, so even early draft files go into a GitHub repository. That way I can access them anywhere.</p>
+</blockquote>
+<blockquote>
+<p>When it is time to generate output, the text editor I use converts Markdown directly to plain HTML that I can copy/paste straight into our LMS. I use R Studio to generate MS Word documents and build online books. I rarely make PDFs anymore because they can be hard for screen readers to translate.</p>
+</blockquote>
+<p>In this exercise you will try writing and editing Markdown texts using R Studio as a text editor, then using a standalone text editor. Your goal is to experience for yourself how Markdown behaves in different editing environments. One probably will feel more comfortable than the other; that is the way you should start out building your editing workflow.</p>
+<h2 id="procedure-1">Procedure</h2>
+<h3 id="editing-markdown-using-r-studio">Editing Markdown Using R Studio</h3>
+<ol type="1">
+<li><p>Open R Studio, and choose__File &gt; Open__ and navigate to the <strong>ABLE 2022 Workshop</strong> repository. Open to the file containing the <strong>Table of Contents</strong> page for the Writing Resource Guide.</p></li>
+<li><p>Find 1-2 EXISTING pages you think you might want to edit or contribute to. Also find 1-2 topic that you do not see in the current pages that you think should be in the Guide.</p></li>
+<li><p>Now open the folder named <strong>Writing Resource Guide.</strong> It contains the Markdown files (with the “.md” extension) for the full Writing Resource Guide. Locate one of the pre-existing .md files you wanted to edit, and open it.</p>
+<ul>
+<li>First look at the current structure. If needed, compare it to the markup guide in the handout from earlier. Do you see how the structure of the rendered file is encoded in the Markdown tags? (Remember, you can click the <strong>Preview</strong> tab at the top of the window to switch from Code to Preview modes.)</li>
+<li>Look for a section you want to edit. Make some changes, save, then see how your changes look using <strong>Preview</strong> mode.</li>
+</ul></li>
+<li><p>Next you will start a new file. Choose <strong>File &gt; New File &gt; Markdown file</strong>.</p></li>
+</ol>
+<center>
+<figure>
+<img src="images/Start-MD-ABLE.png" style="width:80.0%" alt="Start a new .md file" /><figcaption aria-hidden="true">Start a new .md file</figcaption>
+</figure>
+</center>
+<p><br></p>
+<ol start="5" type="1">
+<li><p>Enter some starting text. One or two words is enough.</p></li>
+<li><p>Save the file in your <strong>ABLE 2022 Workshop</strong> repository. Give your file a name that reflects the topic you did not see. Include the .md extension. <strong>TIP:</strong> when you name files, do not include spaces. Write all file names in CamelCase (FileName1.md) or Snake_Case (File_Name_1.md)</p></li>
+<li><p>Now you have a starting file that you can edit any way you wish.</p>
+<ul>
+<li>If you want to see how changes to the Markdown code affect it, click the <strong>Preview</strong> button at the top of the window.</li>
+<li>If the .md file will not display, you probably have an error in the format. Look at the bottom of the page for a tab called <strong>R Markdown</strong>. There usually is an error message telling you what went wrong.</li>
+</ul></li>
+<li><p>When you are finished editing your two pages, save them both in the <strong>ABLE 2022 Workshop</strong> respository folder.</p></li>
+<li><p>Close R Studio for now.</p></li>
+</ol>
+<h3 id="editing-markdown-using-a-plain-text-editor">Editing Markdown Using a Plain Text Editor</h3>
+<ol type="1">
+<li><p>Navigate to your <strong>ABLE 2022 Workshop</strong> repository folder. Usually it is located in your Documents folder.</p></li>
+<li><p>Click on one of the .md files in the <strong>Writing Resource Guide</strong> folder to select it. This time you want to open the file in a plain text editor.</p>
+<ul>
+<li>For Windows, the default installed text editor is <strong>Notepad++</strong>.</li>
+<li>For MacOS, <strong>TextEdit</strong> is the default installed editor.</li>
+<li>You can open and edit .md files with any text editor you have installed, such as (<a href="https://atom.io/">Atom</a>, <a href="https://brackets.io/">Brackets</a>, <a href="https://bluefish.openoffice.nl/index.html">Bluefish</a>, <a href="https://www.barebones.com/products/bbedit/">BBEdit</a>, etc.)</li>
+<li>If you have no idea what text editor you have installed, just double-click the file. Your operating system will try to open the file with the appropriate program.</li>
+</ul></li>
+<li><p>After you have edited an existing .md file, try creating a new one from scratch. Once again, create a new file for a topic you think is missing from the Table of Contents of the Resource Guide.</p></li>
+<li><p>When you have finished, save both of your edited .md files.</p></li>
+</ol>
+<h3 id="optional-writing-directly-inside-github">OPTIONAL: Writing Directly Inside GitHub</h3>
+<p>The workflow for creating and editing .md files in a browser is a bit different. These instructions only work when you are online and logged into GitHub.</p>
+<ol type="1">
+<li><p>In a browser, log into GitHub (not Desktop). Go to the repository containing your cloned copy of the Resource Guide. At the top of the list, click on <strong>Add file</strong>. Choose <strong>Create new file</strong>.</p></li>
+<li><p>Give your file a name that reflects the topic you did not see. Include the .md extenstion.</p></li>
+<li><p>Enter some starting text. One or two words is enough.</p></li>
+<li><p>At the bottom of the page is the <strong>Commit</strong> dialog. GitHub requires you to describe what you did when you save a file. That information goes in the first box, and is required. It might seem like extra trouble at first, but when you are making changes in critical files, these commit comments can help you track what changes you made and when. If there are multiple authors working on a file, each author’s changes should say specifically what they worked on.</p></li>
+<li><p>Commit the file directly to the master (branches and pull requests are not important until you are working on more complex projects.) <strong>TIP:</strong> when you name files, do not include spaces. Write all file names in CamelCase (FileName1.md) or Snake_Case (File_Name_1.md)</p></li>
+<li><p>Now you have a starting file that you can edit any way you wish. If you want to see how changes to the Markdown code affect it, simply click the <strong>Preview</strong> tab at the top of the window.</p></li>
+<li><p>Next, go back to the Table of Contents and find a page you think you might want to edit. Locate the corresponding pre-existing .md file, and open it.</p>
+<ul>
+<li>First look at the current structure. If needed, compare it to the markup guide in Handout 3. Do you see how the structure of the rendered file is encoded in the Markdown tags? (Remember, click the <strong>Preview</strong> tab at the top of the window to switch from Code to Preview modes.)</li>
+<li>Look for a section you want to edit. Make some changes, commit the file to your local repository, then see how your changes look using <strong>Preview</strong> mode.</li>
+</ul></li>
+</ol>
+<h3 id="writing-tips-and-tricks">Writing Tips and Tricks</h3>
+<ul>
+<li>Always start Markdown pages with a Level 1 header that is the title of the document. I reserve the Level 1 header just for that purpose. This does not seem very useful at first, but it becomes essential when you start compiling multiple .md files into longer documents or books.</li>
+<li>It is tempting to remove spaces between lines of text in .md files. BAD idea! Markdown relies on blank lines to keep track of blocks of text. When Markdown is rendered, extra blank lines are deleted automatically.</li>
+<li>When editing inside GitHub, pages may extend beyond the screen. If so, look at the upper right of the editor window for a drop-down that says <strong>No wrap</strong>. Click it and choose <strong>Soft wrap</strong>. This keeps sentences and paragraphs from running off the right side of the screen.</li>
+</ul>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="exercise-3-updating-your-local-and-master-copies-of-the-resource-guide">Exercise 3: Updating Your Local and Master Copies of the Resource Guide</h1>
+<h2 id="background-2">Background</h2>
+<p>You have edited and saved your .md files locally. Now the local repository on your computer is ahead of the version in your GitHub account! In this exercise we’ll synchronize the two repositories by pulling and pushing files between them.</p>
+<blockquote>
+<p><strong>Do I HAVE to use GitHub?</strong> Nope, it is entirely up to you. You can copy files from any public repository on GitHub; only the private repositories are restricted to account holders. If you never share files with other people, only work with local copies, and have a good back-up service already, then you may not need it.</p>
+</blockquote>
+<blockquote>
+<p>GitHub does have benefits though. You can share files with others, get their suggestions, then decide whether or not to incorporate them. If you work across multiple computers (home and work for example), GitHub can help ensure you always are working on the most recently updated files. You also can set up a personal web site for each repository you have. If you are interested in including more R or data science in your labs, then you definitely want to become comfortable using GitHub.</p>
+</blockquote>
+<p><br/></p>
+<p>GitHub has two functions that help you keep repositories in sync: <strong>pull</strong> (sometimes called <strong>fetch</strong>) and <strong>push</strong>. These commands can be confusing, but they are at the heart of what makes GitHub so powerful.</p>
+<p>When you pull (or, fetch) a copy of a repository, GitHub compares the versions of the files in the repository on its servers and your local computer. If the server version does not match the local version exactly, GitHub will try to download the newer version and update the older version on your local computer. If there are newer versions in BOTH locations, GitHub will ask you to pick one to be the new “correct” version.</p>
+<p>Say you have been editing several .md files using the text editor on your computer. When you <strong>commit</strong> the files, you are telling GitHub “these are the newest versions, and what everyone should be using from now on.” GitHub dutifully stamps them with a time and location code, and stores them locally. You need to <strong>push</strong> the files to tell the main GitHub server to update its copies.</p>
+<p>When you push files, the server compare its copy of each file to the data stamp on the one you pushed. If there are changes in the server copy that are not in yours, GitHub will stop and tell you that you need to pull the changes already logged by the server and merge them with your local changes first. <strong>Then</strong> you can push the newest version of each file back to the server. This is a quirk of GitHub; usually pulling from the server resolves any conflicts.</p>
+<blockquote>
+<p><strong>Why does GitHub use so many different commands?</strong> Why not just save a file instantly and everywhere, like Google does? If you have ever had someone change a Google document you just finished editing back to what you deleted, you know why. GitHub’s strategy is designed for code writers and editors. There has to be one “correct”” version, and one person with the authority to make the decision what files are correct. Committing a file only saves it to the local copy of the repository you happen to be working in. Pushing a file changes it on the main server, and on all of the forked copies.</p>
+</blockquote>
+<h2 id="procedure-2">Procedure</h2>
+<ol type="1">
+<li><p>Open GitHub Desktop. If you are not logged in to your account, do so now.</p></li>
+<li><p>In the upper left of the work window, click on <strong>Current Repository</strong>. Pick the <strong>ABLE 2022 Workshop</strong>. You now should see a list of files that changed. The files you created or edited should be listed.</p></li>
+</ol>
+<center>
+<figure>
+<img src="images/Repo-Ready2-ABLE.png" style="width:80.0%" alt="Setting the repository to synchronize." /><figcaption aria-hidden="true">Setting the repository to synchronize.</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="3" type="1">
+<li><p>In the upper part of the work window, click on <strong>Fetch Origin</strong>. This issues a Pull command; it pulls information about the server version of the repository and compares the two versions.</p></li>
+<li><p>You should see a list of files that have changed since they were last saved to your account. Give your update a SHORT name. Then click on <strong>Commit</strong> to save the changes locally.</p></li>
+</ol>
+<center>
+<figure>
+<img src="images/GitHub-commits-commented-ABLE.png" style="width:80.0%" alt="Committing changes to your local copy of the files." /><figcaption aria-hidden="true">Committing changes to your local copy of the files.</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="5" type="1">
+<li>To update the copy in your GitHub account, click on <strong>Push to origin</strong>.</li>
+</ol>
+<center>
+<figure>
+<img src="images/GitHub-push-ABLE.png" style="width:80.0%" alt="Pushing a copy of your changes to your main GitHub account" /><figcaption aria-hidden="true">Pushing a copy of your changes to your main GitHub account</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="6" type="1">
+<li>If you click on <strong>Fetch Origin</strong> again, you should get a message saying <strong>All files up to date</strong>. This means your files in the local copy and the server copy of the repository all match.</li>
+</ol>
+<h3 id="tips-and-good-practices">Tips and Good Practices</h3>
+<p><strong>How often should you commit and push?</strong> It is up to you, but generally you should commit every 30-60 minutes, or right after you complete a set of major edits. You might only push changes to GitHub once or twice a day, though more often does not hurt anything. It is a good habit to push to GitHub when you finish working for the day.</p>
+<p><strong>Why commit so often?</strong> GitHub creates a detailed record of every Commit and Push command in your account that includes which files were changed and how. If you are editing a large file or several files and accidentally delete some important text, you can use the repository history to reconstruct the missing pieces. The more often you Commit, the finer grained the record of changes.</p>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="exercise-4-generating-your-output-documents">Exercise 4: Generating Your Output Documents</h1>
+<h2 id="background-3">Background</h2>
+<p>In Exercises 1-3 you learned how to create, edit, and manage the Markdown files. Now we are going to create documents with those files.</p>
+<p>Markdown is converted to other document formats using <a href="https://pandoc.org/index.html">Pandoc</a>, a “universal document converter.” It can read many different document file types, then convert one format to another. Some file types get fussy when converted, but Markdown and Pandoc play very nicely together.</p>
+<p>There are several ways to access Pandoc; you do not need to work with it directly. In this exercise you will be using a standalone web-based converter to create clean HTML, and using R Studio to create MS Word documents. I will demonstrate two other routes: using the command line to build single files, and using R Studio’s <strong><em>bookdown</em></strong> package to compile single files into an e-book.</p>
+<h2 id="converting-text.md-to-text.html">Converting Text.md to Text.html</h2>
+<p>Many plain text editors (though oddly, not R Studio) can convert Markdown to very compact plain HTML. If your text editor does not have this feature, this web-based Pandoc converter works well.</p>
+<ol type="1">
+<li><p>Go to the <strong>MD to HTML Converter</strong> at <a href="https://ashkanph.github.io/md-to-html/">https://ashkanph.github.io/md-to-html/.</a></p></li>
+<li><p>In the upper right corner, use <strong>Browse</strong> to find your local GitHub folder, and choose one of your recently edited .md files.</p></li>
+<li><p>The .md file will be converted to .html and displayed.</p></li>
+<li><p>Use the <strong>Save as HTML</strong> button to write a copy of the file in .html back to your local GitHub folder.</p></li>
+<li><p>If you open the version of the file with the .html extension in your plain text editor, you will see it has been rewritten using HTML markup. You can copy and paste the HTML code into most LMS pages. Alternatively, you can share the file itself with others; they can open it in any web browser.</p></li>
+</ol>
+<blockquote>
+<p><strong>Why not use R Studio for HTML?</strong> When R Studio generates standalone HTML, it embeds the raw code for every image plus a LOT of extra styling code. For example, the HTML file for the handouts for this workshop that was generated using the Ashkanph converter was 63 Kb. The same HTML file generated using R Studio was 6 Mb. This problem goes away when R Studio creates books; the HTML files are very compact, because they reference separate styling and image files rather than embedding them.</p>
+</blockquote>
+<p>There are many free converters available. Another very good one is <a href="https://markdown-it.github.io/">Markdown It</a>, which has a very user-friendly interface, but requires copy/pasting the text rather than choosing a file. <a href="https://dillinger.io/">Dillinger</a> shows the Markdown code in a window next to either the HTML code or the styled text. Rendered Markdown can be exported as HTML, but like R Studio, Dillinger includes some extra styling information.</p>
+<h2 id="converting-text.md-to-text.docx">Converting Text.md to Text.docx</h2>
+<p>R Studio is very good for converting .md files to well-formatted Word documents.</p>
+<ol type="1">
+<li><p>Open R Studio, and go to the workshop files. Open one of the files you edited or created.</p></li>
+<li><p>At the top of the screen, open the pulldown menu next to <strong>Preview</strong> and choose <strong>Word document</strong>.</p></li>
+</ol>
+<center>
+<figure>
+<img src="images/Preview-Word-ABLE.png" style="width:80.0%" alt="Converting Markdown to Word format" /><figcaption aria-hidden="true">Converting Markdown to Word format</figcaption>
+</figure>
+</center>
+<p><br/></p>
+<ol start="3" type="1">
+<li><p>R Studio will call Pandoc, generate a pre-formatted MS Word .docx file, then save it to the same directory where the .md file is located.</p></li>
+<li><p>Click on the .docx file to open it in MS Word.</p></li>
+</ol>
+<p>MS Word files are formatted using a standard template. To format documents a different way, create a template file with the header and text styles that you want. When newly generated documents are copy/pasted into the template file, the text will change to the styles you set.</p>
+<h2 id="demonstration-1-running-pandoc-from-the-command-line">Demonstration 1: Running Pandoc From the Command Line</h2>
+<p>It is very easy to install and run Pandoc from your computer’s command line, and it generates both .docx and .html files. If you would like to try it yourself:</p>
+<ol type="1">
+<li><p>Go to the <a href="https://pandoc.org/installing.html">Pandoc installation page</a> for instructions to download and install to your computer.</p></li>
+<li><p>Use the following Terminal commands to convert from .md to .html or .docx format. The commands are the same, except for the extension on the output file.</p></li>
+</ol>
+<p><code>pandoc -s /filepath/Input_Filename.md  -o /filepath/Output_Filename.html</code></p>
+<p><code>pandoc -s /filepath/Input_Filename.md  -o /filepath/Output_Filename.docx</code></p>
+<p>Pandoc is fussier about rendering PDFs. First, it does not tolerate markup errors, and may refuse to convert a file. Second, you must install a pdf-engine then call it in the command. Look at the example below:</p>
+<p><code>pandoc -s --pdf-engine=xelatex /filepath/Input_Filename.md  -o /filepath/Output_Filename.pdf</code></p>
+<p>The pdf-engine defines what the format will look like. This particular PDF engine’s default layout and fonts look outdated and can be hard to read. Changing them requires some deeper coding work, which is why I do not recommend using Pandoc for creating occasional PDFs. It is quicker to render a file in MS Word then save it as a PDF.</p>
+<h2 id="demonstration-2-using-bookdown-to-compile-documents-into-books">Demonstration 2: Using Bookdown to Compile Documents Into Books</h2>
+<p>R has powerful libraries for creating online materials. The <strong>bookdown</strong> package (which uses <strong>knitr</strong> plus Pandoc) combines individual .md files into full length technical books. The <a href="https://bookdown.org/">Home page for the R Bookdown package</a> has examples of books that were created this way.</p>
+<p>There is not enough time for you to set up your own GitHub-hosted book from start to finish. Instead, we’ll take a short tour through the back end of the <strong>SWP Writing Resource Guide</strong> and see how R Studio can convert a collection of separate .md files into an integrated book.</p>
+<p>We also will talk about what is <strong>missing</strong> from the Resource Guide that you added, and your suggestions for improving it.</p>
+<h1 id="next-steps">Next Steps</h1>
+<p>Today’s exercises introduced you to most of the tools you need to start using Markdown.</p>
+<p>If you want to use our Writing Resource Guide in your own courses, you now have the original documents and all the tools you need to edit it to suit your program needs. If you are interested in writing new material or helping us expand the Guide, let us know.</p>
+<p>If you want to try building your own online book, go to our <a href="https://github.com/adanieljohnson/bookdown-demo">Bookdown Demo</a> repository, which is an unmodified fork of a demo by bookdown’s creator, Yihui Yue. Clone this to a new repository, and you have a complete operating skeleton for a book. <a href="https://bookdown.org/yihui/bookdown/">Authoring Books and Technical Documents With R Markdown</a> describes how to customize it as you desire.</p>
+<p>Two other books that can help you continue developing your skills are:</p>
+<ul>
+<li><a href="https://bookdown.org/yihui/bookdown/">Guide to using Bookdown</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">Using Markdown inside R</a></li>
+</ul>
+<!--- Break for ========================== NEW PAGE-->
+<br>
+<hr/>
+<p><br></p>
+<h1 id="links-to-resources">Links to Resources</h1>
+<p>Links to packages and resources described in the workshop handouts are provided again here for convenience, along with additional resources.</p>
+<h3 id="getting-started">Getting Started</h3>
+<ul>
+<li><a href="https://www.portent.com/blog/content/content-with-github-markdown.htm">WHY and HOW to write well-structured, reusable texts</a></li>
+<li><a href="https://github.com/adanieljohnson/ABLE_2022_Workshop">Workshop Repository and Writing Resource Guide</a></li>
+</ul>
+<h3 id="plain-text-editors">Plain Text Editors</h3>
+<ul>
+<li><a href="https://www.portent.com/blog/content/atom-markdown.htm">Atom Text Editor</a> is free from GitHub, and can be set up as a Markdown-native editor. It was designed for coders, so can be intimidating to set up.</li>
+<li><a href="https://brackets.io/">Brackets</a> is popular with many code and text wranglers.</li>
+<li><a href="https://bluefish.openoffice.nl/index.html">Bluefish</a> is an older editor but is still actively maintained.</li>
+<li><a href="https://texteditor.co/">Google Text Editor</a> is available to anyone with a Gmail account. It is not as full-featured as many editors, but does recognize Markdown natively.</li>
+</ul>
+<h3 id="using-github">Using GitHub</h3>
+<ul>
+<li><a href="https://desktop.github.com/">Install GitHub Desktop</a></li>
+<li><a href="https://github.com/">GitHub home page</a></li>
+<li><a href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/overview/getting-started-with-github-desktop">Getting Started With GitHub Desktop</a></li>
+</ul>
+<h3 id="markdown-syntax-and-add-ons">Markdown Syntax and Add-Ons</h3>
+<ul>
+<li><a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">GitHub’s Introduction to GHFM</a></li>
+<li><a href="https://guides.github.com/features/mastering-markdown/">Quick Guide to Mastering Markdown</a> *<a href="https://www.markdownguide.org/extended-syntax/">Extended Syntax for Markdown</a></li>
+<li><a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md">Emoji cheat sheet</a>. <br> There are two ways to add emoji to Markdown files: copy and paste an emoji into the Markdown-formatted text, or type emoji shortcodes. GHFM does not support emoji shortcodes, so copy/paste from this cheat sheet is your best option.</li>
+<li><a href="https://www.pluralsight.com/guides/working-tables-github-markdown">Making Tables in Markdown</a></li>
+<li><a href="https://www.tablesgenerator.com/markdown_tables">Web-based Markdown Table Maker</a></li>
+<li><a href="https://www.w3schools.com/html/html_formatting.asp">HTML shortcuts</a></li>
+<li><a href="https://www.w3schools.com/html/html_symbols.asp">HTML special symbols</a></li>
+<li><a href="https://www.overleaf.com/learn/latex/Mathematical_expressions">Writing LaTeX equations</a></li>
+<li><a href="https://latex.codecogs.com/legacy/eqneditor/editor.php">Online equation builder</a></li>
+<li><a href="https://github.github.com/gfm/">Official Specification for GHFM</a>, if you want to see the complete documentation.</li>
+</ul>
+<h3 id="file-format-converters">File Format Converters</h3>
+<ul>
+<li>HTML5 for the web:
+<ul>
+<li><a href="https://ashkanph.github.io/md-to-html/">MD to HTML Converter</a></li>
+<li><a href="https://dillinger.io/">Dillinger</a></li>
+<li><a href="https://markdown-it.github.io/">Markdown It</a></li>
+</ul></li>
+<li>MS Word documents:
+<ul>
+<li><a href="https://pandoc.org/demos.html">Pandoc Converter</a></li>
+</ul></li>
+</ul>
+<h3 id="r-and-r-studio-bookdown-package">R and R Studio; Bookdown Package</h3>
+<ul>
+<li><a href="https://cloud.r-project.org/">Install R</a>.</li>
+<li><a href="https://www.rstudio.com/products/rstudio/download/">Install RStudio</a>.</li>
+<li><a href="https://moderndive.netlify.app/1-getting-started.html">Installing R and R Studio, Step by Step</a></li>
+<li><a href="https://bookdown.org/yihui/rmarkdown/">Using Markdown inside R</a></li>
+<li><a href="https://bookdown.org/">Home page for the R Bookdown package</a></li>
+<li><a href="https://bookdown.org/yihui/bookdown/">Guide to using Bookdown</a></li>
+</ul>
+<h3 id="commercial-products">Commercial Products</h3>
+<ul>
+<li><a href="https://marked2app.com/">Marked 2</a> is an inexpensive desktop application for previewing Markdown. Mac only.</li>
+<li><a href="http://markdownpad.com/">Markdown Pad</a> is similar to Marked 2, but for Windows.</li>
+<li><a href="https://typora.io/">Typora</a> lets you write and view Markdown immediately. Costs $15. Works well for Word documents, but adds extra code to HTML.</li>
+<li><a href="https://caret.io/">Caret</a> is a newer cross-platform tool.</li>
+</ul>
+</body>
+</html>
