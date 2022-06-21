@@ -1,4 +1,4 @@
-# Make Zoom Better
+# Published Recommendations for Making Zoom Better
 
 1. Power up the chat function.
     + Use as a note-taking stream of consciousness capture.
@@ -48,28 +48,3 @@
 
 3. Make Zoom recording part of workshop materials.
 
-
-
-Need:
-
-[ ] One-page list of links. Put on chat and online.
-[ ] item
-[ ] item
-[ ] item
-
-
-
-## Revise workflow
-
-1. Download a clone of the GitHub Repository
-
-
-
-VISUAL Workflow
-
-1. SEM overall
-2. Today
-    + Get fileset
-    + Inspect .md vs. .html, .docx
-    
-    

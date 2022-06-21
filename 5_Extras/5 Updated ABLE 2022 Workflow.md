@@ -2,18 +2,18 @@
 
 ## TO DO List
 
-[x] Create TWO template pages. First is a narrative page, second is an outline page.
+- [x] Create TWO template pages. First is a narrative page, second is an outline page.
 
-[ ] Create a containerized version on GitHub and ship duplicates on Flash drives to give away.\
-[ ] Create a RUNNING .md file that they can add to. Use it to demo conversion.
+- [ ] Create a containerized version on GitHub and ship duplicates on Flash drives to give away.
+
+- [ ] Create a RUNNING .md file that they can add to. Use it to demo conversion.
 
 * What pages are missing?
 * What pages need revision?
 * What alternative tools do participants have to share?
 
-[ ] Update GitHub so files, names all match up.\
-[ ] item\
-[ ] item
+[ ] Update GitHub so files, names all match up.
+
 
 
 ## Outline of Goals
