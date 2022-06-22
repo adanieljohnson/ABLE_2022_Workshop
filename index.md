@@ -40,6 +40,36 @@ The third goal is to expand and experiment with our workshop model. I planned to
     + All the tools and working knowledge you need to revise the Guide to fit your exact needs; and
     + New low-cost collaborative authoring and file management tools that you can use MANY other ways.
 
+## Workshop Links
+
+* [ABLE workshop web page](https://adanieljohnson.github.io/ABLE_2022_Workshop/)
+* [ABLE workshop repo](https://github.com/adanieljohnson/ABLE_2022_Workshop)
+* [Resource Guide Book](https://adanieljohnson.github.io/SWP_student_writing_guide/)
+* R installation at https://cloud.r-project.org/
+* R Studio installation at https://www.rstudio.com/products/rstudio/download/
+* [GitHub Desktop](https://desktop.github.com/)
+* [Register for GitHub](https://github.com/)
+* GitHub  Markdown Cheatsheets
+    + [Adam's](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    + [Steven's](https://gist.github.com/stevenyap/7038119)
+
+* [Ashkanph web tool for Pandoc](https://ashkanph.github.io/md-to-html/)
+* [Installing Pandoc](https://pandoc.org/installing.html)
+* Online Books
+    + [Starter files for bookdown-demo](https://github.com/adanieljohnson/bookdown-demo)
+    + [How starter book renders](https://adanieljohnson.github.io/bookdown-demo/)
+
+
+## Related Links
+
+* STEM Writing Project
+    + [GitHub site](https://stemwritingproject.org/)
+    + [QUBES Hub](https://qubeshub.org/community/groups/stemwritingproject)
+* SAWHET v2
+    + [Demo of R Shiny app](https://github.com/adanieljohnson/SAWHET_2)
+    + [Code for app](https://yelr6j-dan-johnson.shinyapps.io/sawhet_v2_0/)
+* [Reflective coaching at BIOME 2022 Workshop on 7/21/22](https://qubeshub.org/community/groups/summer2022/schedule)
+
 
 ## Related News
 
