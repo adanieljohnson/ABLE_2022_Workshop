@@ -34,7 +34,9 @@ There are plenty of guide books available already that explain how to organize a
 As teaching faculty in large introductory biology courses we have watched a LOT of students go through the process of learning to communicate like scientists. We've seen certain things come up again and again. One student frustration we hear all of the time is "why do we have to do it this way? Why can't I do it the way I learned before in (put any course you like here)?" We've found that, when we explain the logic __behind__ elements of scientific writing, the format and rules make more sense and are easier for our students to follow. We wrote this Guide to do just that; go beyond a "what is needed" and "how to do X" Guide to writing, and explain some of the "why." 
 
 In the end, we want you as a scientific writer to feel confident that you know WHAT your goals are, WHY those goals are important, and HOW to get there. Who knows? You may find that you have a hidden talent for it, on which you can build a career. Yet even if you never come to enjoy scientific writing, learning to do it well now will pay off regardless of where your professional path takes you.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 000-PrefaceV2.md:
 
 
@@ -73,7 +75,9 @@ There are plenty of guide books available already that explain how to organize a
 As teaching faculty in large introductory biology courses we have watched a LOT of students go through the process of learning to communicate like scientists. We've seen certain things come up again and again. One student frustration we hear all of the time is "why do we have to do it this way? Why can't I do it the way I learned before in (put any course you like here)?" We've found that, when we explain the logic **behind** elements of scientific writing, the format and rules make more sense and are easier for our students to follow. We wrote this Guide to do just that; go beyond a "what is needed" and "how to do X" Guide to writing, and explain some of the "why."
 
 In the end, we want you as a scientific writer to feel confident that you know WHAT your goals are, WHY those goals are important, and HOW to get there. Who knows? You may find that you have a hidden talent for it, on which you can build a career. Yet even if you never come to enjoy scientific writing, learning to do it well now will pay off regardless of where your professional path takes you.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 003-TableOfContents.md:
 
 # Table of Contents
@@ -138,7 +142,9 @@ The links take you to specific chapters. If you get lost, the Table of Contents 
     + [Case A. Ecology](#appa810)
     + [Case B. Physiology](#appb820)
     + [Case C. Cell Biology](#appc830)
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 005-Instructor_guide.md:
 
 # For Instructors
@@ -199,7 +205,9 @@ Except where noted, all content is licensed for reuse under [Creative Commons CC
 
 If you are interested in contributing to the public edition of Guide, or want to learn out more, [contact us through the project GitHub site](https://github.com/adanieljohnson/stemwritingproject/wiki).
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 006-Modifying_guide.md:
 
 # Coming Soon: How to Modify the Resource Guide
@@ -265,7 +273,9 @@ Coming 6/1/22: [Handouts on how to modify the Guide from our first public worksh
 
 Coming 6/15/22: [Publication of the complete writing instructional model](https://ableweb.org)
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 008-Contributors.md:
 
 # Contributors
@@ -289,7 +299,9 @@ __Other Contributors__
 
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 100-Reason-SciWrit.md:
 
 # (PART) How Scientific Literature Works
@@ -350,7 +362,9 @@ Most web sites are not considered scientific literature because they are not pee
 
 This is a great video explanation of the different types of literature: [Is It Primary Literature?](https://www.youtube.com/watch?v=3o35J2QihJY)
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 120-Reading_strategies.md:
 
 # Reading Scientific Literature {#reading120}
@@ -428,7 +442,9 @@ Metacognition also turns what you read into a dialogue. We’re going to let you
 [This page](#readstrats125) describes three exercises that you can do on your own anytime to improve your literature reading skills. 
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 125-Practicing_Reading_strategies.md:
 
 # Practicing Scientific Literature Reading {#readstrats125}
@@ -572,7 +588,9 @@ Novak GM. 2011. Just-in-time teaching. _New Directions for Teaching and Learning
 
 Roberts JC, Roberts KS. 2008. Deep reading, cost/benefit, and the construction of meaning: Enhancing reading comprehension and deep learning in sociology courses. _Teaching Sociology_ 36(2):125-4.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 200-Hypotheses-Design.md:
 
 # (PART) Hypotheses and Experimental Design
@@ -738,7 +756,9 @@ In this case, the hypothesis is implied. The authors of this study are assuming 
 `"If there are differences in the social, economic, and chronic disease status of patients with COVID-19, then we predict there will be measurable differences in their health outcomes."`
 
 What is MISSING from this hypothesis are specific predictors. The study authors do not know which factors are going to be important, but they are predicting that at least one social, economic, or chronic health factor will be correlated with a difference in health outcome after COVID-19 infection.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 210-Exp_Design.md:
 
 # Step by Step Guide to Experimental Design {#expdesign210}
@@ -830,7 +850,9 @@ What do your results mean compared to what others have seen? What is your reason
 ## Practice Cases
 
 In the Appendix there are [three sample cases that you can use to practice these steps](#overview). Each case has a general starting question, links to 1-2 open-access background articles, suggested questions to explore, and a simple raw data set. Use the case materials to practice each of the steps listed here.  
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 215-Experimental-Vocabulary-One-Variables.md:
 
 # Variables {#variables215}
@@ -886,7 +908,9 @@ If the plotted points form a (more or less) straight line, then there is a linea
 ### Adapting Your Guide
 
 These are the terms that our students misuse most often when writing. Revise this page to emphasize terms that your local audience uses incorrectly most often.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 220-Experimental-Vocabulary-Two-Controls-replicates.md:
 
 # Controls & Replicates {#replicates220}
@@ -964,7 +988,9 @@ Which type of data are easier to compare, the raw measurements or the summary da
 
 These are the terms that our students misuse most often when writing. Revise this page to emphasize terms that your local audience uses incorrectly most often.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 230-Writing-misconceptions.md:
 
 # Coming Soon: Scientific Writing Misconceptions
@@ -1027,7 +1053,9 @@ Items that instructors should check and modify so the distributed document/web p
 
 Particularly difficult or frequent problems that we or others have encountered, and if we know any, strategies for working around them. 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 300-Pieces-of-an-article.md:
 
 # (PART) PARTS OF AN ARTICLE OR REPORT
@@ -1062,7 +1090,9 @@ The order we just described is widely used but is by no means the only format yo
 
 * Combined Results and Discussion. Rather than present the data then interpret it, the authors do both at the same time. 
 * Introduction, Results and Discussion, Methods last. Some journals do this because most of their readers skip the Methods and go straight to the Results.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 320-Title_Abstract.md:
 
 # Title and Abstract {#titles320}
@@ -1242,7 +1272,9 @@ __What Is Particularly Good?__
     + The abstract does NOT have a citation for the optimum growing range of spinach. That information was cited in the main text, and did not need to be repeated in the abstract. 
     + The basic methods, statistical analysis, and main outcomes are all described clearly and __concisely__; there are no extra details included.
     + The comparison between temperature range for PS-II activity and plant growth is summarized, but detailed discussion of that point has been left to the main text. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 340-Introduction.md:
 
 # Introduction {#introduction340}
@@ -1368,7 +1400,9 @@ __What Is Particularly Good?__
 2. There is a clear line of thinking leading to the experimental question, and there is a clear hypothesis-based prediction. 
 3. The cited sources are more recent. 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 350-Methods.md:
 
 # Methods {#methods350}
@@ -1496,7 +1530,9 @@ __What Is Particularly Good?__
 2. The description has fewer specific numbers, but they are not needed in this case. 
 
 One change that could improve this example would be to remove the personal references like "we" and "our." 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 360-Results.md:
 
 # Results {#results360}
@@ -1598,7 +1634,9 @@ __What Is Particularly Good?__
 2. The statistics are reported correctly. 
 3. The author makes a conclusion statement about their data, but does not go on to interpret the meaning of the data in a larger context. 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 380-Discussion.md:
 
 # Discussion {#discussion380}
@@ -1740,7 +1778,9 @@ __What Is Particularly Good?__
 3. They do not reject their own results, but allow that the study could be improved. 
 4. They pose an interesting speculative question for the next study: will frog and rat muscles perform the same way if they are tested side by side?
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 400-Data-summary-analysis-visualization.md:
 
 # (PART) Summarizing and Analyzing Data
@@ -1803,7 +1843,9 @@ Many writing guides tell students to put the table legends, figure legends, tabl
 In our experience, keeping the tables and figures separate from the main text is still a pedagogically sound practice, because it helps students learn how to reference their visuals. We strongly recommend letting students put their legends directly below the corresponding tables and figures. This has two benefits. First it connects the two elements visually, reinforcing that the legend is an integral part of the the table or figure. Second, having the figure or table and its legend on the same page speeds up grading for the instructor. 
 
 When localizing your version of this Guide, be sure to provide explicit instructions and examples of the format if you want students to use a different format.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 425-Graphs-Charts-Pt1.md:
 
 # Bar Charts, Scatter Plots, Box Plots {#chartsone425}
@@ -1889,7 +1931,9 @@ To draw the plot, all of the data points collected for one treatment group are s
 
 Despite their utility, MS Excel cannot creat box-and-whisker plots, so they are not as widely used as the other graph formats. To make box-and-whisker plots you will need more advanced (but still free) software like RStudio.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 426-Graphs-Charts-Pt2.md:
 
 # Figure Legends {#chartstwo426}
@@ -2036,7 +2080,9 @@ While focused on one type of graph, this video provides a good overview of all t
 Video: [Deeper Dive Into Graphs](https://www.youtube.com/watch?v=hVRVe-JUZd0)
 This is a much longer video tutorial but covers more, including how to lay out your data for graphing, and more options for customizing graphs.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 430-Photos-illustrations.md:
 
 # Photos,  Diagrams, and Illustrations {#photos430}
@@ -2145,7 +2191,9 @@ __What is Particularly Good?__
 <br/>
 
 This diagram is an unusual case. At first it looks like the author has included raw data, but the figure legend explains that they are trying to illustrate one of their observations from the experiment. In this instance, including one example of raw data from their dataset was appropriate. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 435-Data-tables.md:
 
 # Data Tables {#tables435} 
@@ -2297,7 +2345,9 @@ Alternatively, a table can have a SHORT title above it and brief footnotes below
 
 Identify the 5-7 most frequent errors that you or your instructors see in students' tables. Then revise the list under "Creating More Effective Tables" accordingly. Also, replace our examples of poor vs. good tables with examples that reflect your own expectations. 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 440-Adding-Visuals.md:
 
 # Adding Tables and Figures to Reports {#visualembed440} 
@@ -2330,7 +2380,9 @@ Many writing guides tell students to split the table legends, figure legends, ta
 In our experience, keeping the tables and figures separate from the main text is still a pedagogically sound practice, because it helps students learn to reference their visuals. We strongly recommend letting students put their legends directly below the corresponding tables and figures. This has two benefits. First it connects the two elements visually, reinforcing that the legend is an integral part of the the table or figure. Second, having the figure or table and its legend on the same page speeds up grading for the instructor. 
 
 When localizing your version of this Guide, provide explicit instructions here about the format you want students to use.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 450-Statistics-overview.md:
 
 # Summarizing and Analyzing Your Data With Statistics {#biostats450}
@@ -2400,7 +2452,9 @@ Our introduction to biostatistics describes the statistical tests that our stude
 
 Alternatively, if your students have a separate statistics resource guide, the pages on biostatistics can be deleted entirely. Be sure to refer your students to the local resource.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 460-Summary-statistics.md:
 
 # Summary or Descriptive Statistics {#sumstats460}
@@ -2540,7 +2594,9 @@ In the text of a report, you should always report summary statistics as mean, st
 
 When you are graphing summarized data, you should include error bars representing one standard deviation on the graph itself. The figure legend should state clearly that the error bars represent 1 s.d., and you should include and explain the value for n. 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 470-Statistical-comparisons1.md:
 
 # Comparing Two Groups Using T-Tests {#compstatsone470}
@@ -2772,7 +2828,9 @@ Statement #3 steps back from the east vs. west campus question, and looks at wha
 * The food in the cafeteria on east campus is so bad that students don't eat enough to grow until they move to west campus, where the cafeteria is better.
 
 These speculations range from very plausible to very unlikely. Still, they all are testable hypotheses that could be evaluated in future experiments.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 473-Statistical-comparisons2.md:
 
 # Comparing Three or More Groups Using ANOVA {#compstatstwo473}
@@ -2952,7 +3010,9 @@ There is a special type of two-way ANOVA called __repeated measures ANOVA (rmANO
 If you must run an rmANOVA, we recommend using dedicated statistical software. Outcomes are reported the same as with one-way ANOVAs.
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 475-Statistical-comparisons3.md:
 
 # Comparing Groups Using Chi Squared Tests {#compstatsthree475}
@@ -3063,7 +3123,9 @@ If you are helping to write up the vaccination example above, you might report t
 
 > In our test groups, 30 of 4788 students injected with the vaccine in the thigh had a severe reaction, versus 76 of 8916 students vaccinated in the arm (χ2 = 2.07, 1 d.f., p = 0.15). Our results showed no significant difference in the fraction of students having a severe reaction after vaccination in either site.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 480-Statistical-models.md:
 
 # Statistical Models {#models480}
@@ -3254,7 +3316,9 @@ Ultimately, if the strength and direction of a linear relationship is more impor
 If you are unsure which to report, always report r. Readers can estimate r<sup>2</sup> for themselves.
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 500-Sources-and-Citations.md:
 
 # (PART) Using Sources
@@ -3303,7 +3367,9 @@ There is no simple answer, because it depends on the story you are trying to tel
 A basic fact that is not common knowledge (say, the current population of the state of Alaska) might only need a citation showing where you got the number you used; that citation tells the reader if the number is relatively up-to-date, and came from a reasonable authority. Observations by one particular lab or an specific experimental method might have one citation. Foundational statements that are central to the whole story usually have multiple independent supporting sources. If you are making a more sweeping and broader claim, you need to provide more evidence to support it, and that evidence needs to be very reliable. Now you might need to provide multiple sources.
 
 The best way to learn how to judge how many sources you need is to [read published literature and look specifically at how citations are used](#reading120). 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 506-Paraphrasing_Sources.md:
 
 # How to Paraphrase a Source {#paraphrasingone506}
@@ -3390,7 +3456,9 @@ In this example the last sentence would be __very close__ to crossing the line i
 This final version still makes the same point, but is more thoroughly reworded.
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 507-Paraphrasing_2.md:
 
 # Paraphrasing 2. Picking the Main Points {#paraphrasingtwo507}
@@ -3547,7 +3615,9 @@ ___How the Authors' Abstract Summarized Paragraphs 7 & 8___
 * Nevertheless, the test is simple and inexpensive with no false negativity, making it a desirable screening test. 
 * In summary, a novel RNA-based ALK KD analysis was developed for ALK rearrangement screening in MPE and FFPE specimens of NSCLC. This simple inexpensive test can be implemented as routine diagnostics.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 508-Paraphrasing_3.md:
 
 # Paraphrasing 3. Checking Context {#paraphrasingthree508}
@@ -3670,7 +3740,9 @@ Which of these general statements is best supported by the Discussion? What foll
 > Multiple pieces of evidence can be named in support of evolutionary roots of negative emotions elicited by spider-like stimuli. They are the specificity of spiders among other invertebrates in general population (see previous section of Discussion), the high intensity of both fear and disgust they trigger [13, 31, 32], the existence of spider species which pose a real threat to humans [121], their association with pathogen disgust [20, 22], the results of visual attention tasks [42, 44], and the results of developmental studies [27–30]. Despite this fact, a simple and concise evolutionary explanation of negative emotions elicited by spider-like stimuli is difficult to formulate. We are aware that our study opens just as much questions as it answers. To further inspect possibility of evolutionary roots of spider-like cognitive category, we suggest addressing several issues in future research. First, all respondents in this work were Central Europeans, members of the so called WEIRD (Western, educated, industrial, rich, and democratic) society [122, 123]. Cross-cultural studies are needed to validate universality of discussed findings. Second, emotions elicited by live animals are rarely tested, yet live animals are the ultimate stimuli for evolution. In addition, animals’ body size or motion are important characteristics of the stimuli [124] and therefore a study examining emotions elicited by live invertebrates is further needed. Third, although the spider-like cognitive category was relatively well explored in this work, other categories of fear- or disgust-eliciting invertebrates were not. A detailed comparison to other prominent groups of such invertebrates (e.g., scorpions) could shed more light into the research of animal phobias. Nonetheless, we consider the delineation of spider-like cognitive category the second of the two most important results of this study.
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 510-Source-Formats.md:
 
 # Citing Your Sources {#citformats510}
@@ -3937,7 +4009,9 @@ Started by the major journal publishers, DOIs have grown into nearly universally
 
 Currently the Council of Science Editors does __not__ recommend using DOIs as the sole form of citation, for two reasons. First, DOIs do not tell the reader anything about the authors or source of the information, only where it is located online. Second, DOIs are not useful when a reader does not have access to a web browser. That is why APA and other citation formats include the DOI at the end of a citation, but do not use it in place of the traditional information (authors, year, etc.)
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 515-Source-Mistakes.md:
 
 # Avoiding Mistakes When Citing Sources {#citmistakes515}
@@ -4006,7 +4080,9 @@ Make sure you know which citation format you are expected to use, and follow it.
 Make sure that each source you use and cite actually says what you claim it does. We understand students get short on time. When your deadline is looming, it is tempting to find a source that sounds like it supports your argument, and add it without actually reading the source. This is much more likely to hurt than help you. 
 
 For example, some time back one of our students used a citation from 1951 to support a statement about plant population growth in the Discussion section of their report. Their GTA was suspicious, and looked up the 1951 article. It turned out that the article the student cited was about human population growth and focused on agricultural economics, not biology. The student confessed that they had not read the source, and added it simply because the phrase "population growth" was in the description in Google Scholar. The student received a zero on the report for padding their Literature Cited section, which they could have avoided by taking 5 minutes to skim the actual article. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 520-Zotero.md:
 
 # Coming Soon: Using Zotero {#zotero520}
@@ -4028,7 +4104,9 @@ We are looking for an author for this page, or someone who can contribute existi
 ## Making a Literature Cited Section
 
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 600-Toolbox.md:
 
 # (PART) Your Writer's Toolbox
@@ -4037,7 +4115,9 @@ We are looking for an author for this page, or someone who can contribute existi
 Up to now we've focused more on the "what goes where" mechanics of scientific writing. We find that most students get accustomed to these parts of the writing process pretty quickly, and after writing and revising 1-2 reports, they know what is expected and where to put it.
 
 In this Section we will start adding some new tools and skills to your writer's toolbox. We will explain how to build stronger, well-reasoned arguments, and how to use arguments to assess your own and others' writing, thinking, and logic more critically. You will learn how to approach your writing tasks more strategically. Finally you will learn how to use peer review to improve your own writing, and help other students improve theirs.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 610-Writing-strategies.md:
 
 # Strategies for Writing {#strategies610}
@@ -4148,7 +4228,9 @@ This is a good strategy to use when you are not completely sure what readers nee
 12. Write an ~200-word summary of your entire report. This will be your Abstract. Include information from every section.
 
 13. Make sure every cited source in the text has an entry in the Literature Cited section.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 615-Toulmin-outline.md:
 
 # How to Construct a Good Argument {#toulmin615}
@@ -4233,7 +4315,9 @@ If we use Toulmin's argument model as a starting point, there are five simple bu
 
 If this seems like a lot of work, remember that your goal in scientific writing is to make a strong argument that supports a claim using multiple pieces of evidence and sound reasoning. Robust arguments take time and effort to build.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 630-Peer-Review.md:
 
 # Coming Soon: Peer Review {#peerreview630}
@@ -4243,7 +4327,9 @@ We are looking for an author for this page, or someone who can contribute existi
 We have not found a particularly robust method of peer review. If anyone has a protocol that they particularly like, that works consistently, and they would be willing to share, please let us know. We will publish it citing you as the original source.
 
 The text will be published under a Creative Commons 4.0 BY/NC/SA license, and copyright will remain with the original author.
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 650-Checklist.md:
 
 # Checklist for Success {#submissioncheck650}
@@ -4338,7 +4424,9 @@ These are what we see __our__ students do. Your instructor will provide you with
 ### Adapting Your Guide
 
 We have found students appreciate having a one-stop checklist that ensures they do not miss important parts of their report. The items listed here match key points that were listed in the preceding sections. Revise the checklist as needed to include the items which have the largest impact on overall report grade. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 700-Instructor-Resources.md:
 
 # (PART) Instructor Resources
@@ -4352,7 +4440,9 @@ Part 7 of the Resource Guide is intended for Instructors. It can be removed from
 * An annotated Bibliography for those interested in going deeper.
 
 Appendices A-C are practice cases that instructors can use for training activities or for teaching students to write lab reports when they do not have access to wet labs. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 705-Bins-Scoring.md:
 
 # Bins Scoring {#binsscore705}
@@ -4509,7 +4599,9 @@ The basic criteria we use reflect the five fundamental errors that we saw our st
 <br/>
 
 The local criteria for technical, writing, and logical flaws are identified the same way, by comparing past reports that earned an A vs. B vs. C. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 710-Commenting.md:
 
 # Commenting on Reports {#commenting710}
@@ -4637,7 +4729,9 @@ __Option 2:__ use minimal marking. Edit one paragraph thoroughly for grammatical
 * If one particular item was done well, refer the student to it as an example of how to correct other parts of the report. 
 * Avoid “but.” Think about this comment: “I like how you wrote your Intro, but the Methods need…”. The “but” negates what the student did well. Try wording that invites continued effort: “I like how you organized your Introduction. For the revision, try using the same organizational strategy for your Methods section, which needs…”. 
 * Do not interject writing conventions and idioms of your disciplinary sub-field. For example, our students are not required to use different formats for in-text citations, depending on the number of authors on the source article. These details become important later as students specialize; at the introductory level we want them to focus on fundamental writing issues. 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 720-Training-TAs.md:
 
 # Training Teaching Assistants {#tatraining720}
@@ -4666,7 +4760,9 @@ When a GTA's grading deviates from expectations or past performance, we meet wit
 <hr/>
 
 <sup>1</sup> This is excerpted from a larger classification schema we developed for an [automated comment classifier project](https://adanieljohnson.github.io/default_website/codebook.html). 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 750-Annotated-Bibliography.md:
 
 # Annotated Bibliography {#bibliography750}
@@ -4794,7 +4890,9 @@ Plavén-Sigray, P., Matheson, G. J., Schiffler, B. C., & Thompson, W. H. (2017).
 
 Ruegg, R. (2015). Differences in the Uptake of Peer and Teacher Feedback. _RELC Journal: A Journal of Language Teaching and Research_, _46_(2), 131–145.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 800-Appendices.md:
 
 # (PART) Coming Soon
@@ -4811,7 +4909,9 @@ Materials provided include:
 * The raw dataset, and
 * Examples of poorly- and well-written student reports, both with and without coaching-oriented annotations.
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 810-AppA-Ecology.md:
 
 # DRAFT Appendix A: Ecology
@@ -4844,21 +4944,27 @@ Demonstrate ANOVA, post-hoc, data tables, box-and-whisker plots for class summar
 [A poorly written report](#appa813)
 
 [A Well-Written Report](#appa815)
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 813-AppA-Ecology_report_poor.md:
 
 # DRAFT A1: Poorly Written Ecology Report
 
 ## A Poorly Written Report {#appa813}
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 815-AppA-Ecology_report_good.md:
 
 # DRAFT A2: Well-Written Ecology Report
 
 ## A Well-Written Report {#appa815}
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 820-AppB-Physiology.md:
 
 # DRAFT Appendix B: Physiology
@@ -4893,21 +4999,27 @@ Demonstrate paired t-test, bar graphs
 [A poorly written report](#appb823)
 
 [A Well-Written Report](#appb825)
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 823-AppB-Physiology_report_poor.md:
 
 # DRAFT B1: Poorly Written Physiology Report
 
 ## A Poorly Written Report {#appb823}
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 825-AppB-Physiology_report_good.md:
 
 # DRAFT B2: Well-Written Physiology Report
 
 ## A Well-Written Report {#appb825}
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 830-AppC-Cell-Biology.md:
 
 # DRAFT Appendix C: Cell Biology
@@ -4941,14 +5053,18 @@ Demonstrate linear regression, data tables
 [A poorly written report](#appc833)
 
 [A Well-Written Report](#appc835)
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 833-AppC-Cell-Biology_report_poor.md:
 
 # DRAFT C1: Poorly Written Cell Biology Report
 
 ## A Poorly Written Report {#appc833}
 
---------------------------------------------------------------------------------
+<br>
+
+<!--- Break for ========================== NEW PAGE-->
 835-AppC-Cell-Biology_report_good.md:
 
 # DRAFT C2: Well-Written Cell Biology Report
