@@ -1,3 +1,9 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
 # Major Workshop Binder Materials for ABLE 2022
 
 ## Title: Using Markdown and Free Tools to Write, Publish, and Share an Open-Source Scientific Writing Guide
